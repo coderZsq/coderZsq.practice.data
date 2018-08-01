@@ -4,6 +4,8 @@ import re
 from scrapy.http import Request
 from urllib import parse
 
+from ArticleSpider.items import JobBoleArticleItem
+
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
     allowed_domains = ['blog.jobbole.com']
@@ -17,7 +19,6 @@ class JobboleSpider(scrapy.Spider):
         post_nodes = response.css('#archive .floated-thumb .post-thumb a')
         for post_node in post_nodes:
             image_url = post_node.css('img::attr(src)').extract_first('')
-            print(image_url)
             post_url = post_node.css('::attr(href)').extract_first('')
             yield Request(url=parse.urljoin(response.url, post_url), meta={'front_image_url' : image_url}, callback=self.parse_detail)
         #提取下一页并交给scrapy进行下载
@@ -26,6 +27,8 @@ class JobboleSpider(scrapy.Spider):
             yield Request(url=parse.urljoin(response.url, next_url), callback=self.parse)
 
     def parse_detail(self, response):
+        article_item = JobBoleArticleItem()
+
         # 提取文章的具体字段
         # XPATH
         # title = response.xpath('//*[@class="entry-header"]/h1/text()').extract()[0]
@@ -49,6 +52,7 @@ class JobboleSpider(scrapy.Spider):
         # tags = ", ".join(tag_list)
 
         # CSS
+        front_image_url = response.meta.get('front_image_url', '')
         title = response.css('.entry-header h1::text').extract()
         create_date = response.css('p.entry-meta-hide-on-mobile::text').extract()[0].strip().replace(" ·", "")
         praise_nums = response.css('.vote-post-up h10::text').extract()[0]
@@ -68,11 +72,15 @@ class JobboleSpider(scrapy.Spider):
         tag_list = response.css('p.entry-meta-hide-on-mobile a::text').extract()
         tag_list = [element for element in tag_list if not element.strip().endswith("评论")]
         tags = ", ".join(tag_list)
-        # print(title)
-        # print(create_date)
-        # print(praise_nums)
-        # print(fav_nums)
-        # print(comment_nums)
-        # print(content)
-        # print(tags)
-        pass
+
+        article_item['title'] = title
+        article_item['url'] = response.url
+        article_item['create_date'] = create_date
+        article_item['front_image_url'] = [front_image_url]
+        article_item['praise_nums'] = praise_nums
+        article_item['comment_nums'] = comment_nums
+        article_item['fav_nums'] = fav_nums
+        article_item['tags'] = tags
+        article_item['content'] = content
+
+        yield article_item
