@@ -1,5 +1,10 @@
 {
+    "injectChanges": false,
+    "files": ["./**/*.{html,htm,css,js}"],
+    "watchOptions": {
+        "ignored": ""
+    },
     "server": {
-        "baseDir": ["./src", "./build/contracts"]
+        "baseDir": ["./src", "./build/contracts", "./node_modules"]
     }
 }

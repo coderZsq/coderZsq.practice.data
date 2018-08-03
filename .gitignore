@@ -104,5 +104,4 @@ venv.bak/
 .mypy_cache/
 
 node_modules/
-build/
 study-notes/py-basis/scrapy/ArticleSpider/ArticleSpider/images/full

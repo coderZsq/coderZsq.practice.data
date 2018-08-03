@@ -66,19 +66,17 @@ class MysqlTwistedPipeline(object):
     def process_item(self, item, spider):
         # 使用twisted将mysql插入变成异步执行
         query = self.dbpool.runInteraction(self.do_insert, item)
-        query.addErrback(self.handle_error)  # 处理异常
+        query.addErrback(self.handle_error, item, spider)  # 处理异常
 
-    def handle_error(self, faliure):
+    def handle_error(self, faliure, item, spider):
         # 处理异步插入的异常
         print(faliure)
 
     def do_insert(self, cursor, item):
         # 执行具体的插入
-        insert_sql = '''
-            insert into jobbole_article (title, create_date, url, url_object_id, front_image_url, front_image_path, comment_nums, fav_nums, praise_nums, tags, content)
-            values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-        '''
-        cursor.execute(insert_sql, (item['title'], item['create_date'], item['url'], item['url_object_id'], item['front_image_url'], item['front_image_path'], item['comment_nums'], item['fav_nums'], item['praise_nums'], item['tags'], item['content']))
+        # 根据不同的item 构建不同的sql语句并插入到mysql中
+        insert_sql, params = item.get_insert_sql()
+        cursor.execute(insert_sql, params)
 
 class JsonExporterPipeline(object):
     # 调用scrapy提供的json export导出json文件
