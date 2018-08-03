@@ -104,33 +104,31 @@ class ZhihuQuestionItem(scrapy.Item):
     def get_insert_sql(self):
         #插入知乎question表的sql语句
         insert_sql = """
-            insert into zhihu_question(zhihu_id, topics, url, title, content, answer_num, comments_num,
-              watch_user_num, click_num, crawl_time
-              )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-            ON DUPLICATE KEY UPDATE content=VALUES(content), answer_num=VALUES(answer_num), comments_num=VALUES(comments_num),
-              watch_user_num=VALUES(watch_user_num), click_num=VALUES(click_num)
+            insert into zhihu_question(zhihu_id, topics, url, title, content, answer_num)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            ON DUPLICATE KEY UPDATE content=VALUES(content), answer_num=VALUES(answer_num)
         """
+        print('==============')
+        print(self)
+        print('==============')
+
         zhihu_id = self["zhihu_id"][0]
         topics = ",".join(self["topics"])
         url = self["url"][0]
         title = "".join(self["title"])
         content = "".join(self["content"])
         answer_num = extract_num("".join(self["answer_num"]))
-        comments_num = extract_num("".join(self["comments_num"]))
+        # comments_num = extract_num("".join(self["comments_num"]))
 
-        if len(self["watch_user_num"]) == 2:
-            watch_user_num = int(self["watch_user_num"][0])
-            click_num = int(self["watch_user_num"][1])
-        else:
-            watch_user_num = int(self["watch_user_num"][0])
-            click_num = 0
+        # if len(self["watch_user_num"]) == 2:
+        #     watch_user_num = int(self["watch_user_num"][0])
+        #     click_num = int(self["watch_user_num"][1])
+        # else:
+        #     watch_user_num = int(self["watch_user_num"][0])
+        #     click_num = 0
 
-        crawl_time = datetime.datetime.now().strftime(SQL_DATETIME_FORMAT)
-
-        params = (zhihu_id, topics, url, title, content, answer_num, comments_num,
-                  watch_user_num, click_num, crawl_time)
-
+        # crawl_time = datetime.datetime.now().strftime(SQL_DATETIME_FORMAT)
+        params = (zhihu_id, topics, url, title, content, answer_num)
         return insert_sql, params
 
 

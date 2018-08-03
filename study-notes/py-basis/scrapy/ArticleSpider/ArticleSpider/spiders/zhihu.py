@@ -43,6 +43,7 @@ class ZhihuSpider(scrapy.Spider):
             else:
                 #如果不是question页面则直接进一步跟踪
                 yield scrapy.Request(url, headers=self.headers, callback=self.parse)
+                pass
 
     def parse_question(self, response):
         #处理question页面， 从页面中提取出具体的question item
@@ -121,7 +122,7 @@ class ZhihuSpider(scrapy.Spider):
             match_re = re.match("^_xsrf=(.*); path=/; domain=.zhihu.com$", cookie)
             if match_re:
                 xsrf = match_re.group(1)
-                print(xsrf)
+                # print(xsrf)
 
         if xsrf:
             post_data = {
