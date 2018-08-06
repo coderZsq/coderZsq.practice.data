@@ -9,6 +9,7 @@ pillow = "*"
 mysqlclient = "*"
 requests = "*"
 fake-useragent = "*"
+selenium = "*"
 
 [dev-packages]
 pylint = "*"
