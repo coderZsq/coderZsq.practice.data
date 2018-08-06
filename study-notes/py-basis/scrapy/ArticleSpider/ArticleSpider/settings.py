@@ -54,9 +54,10 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'ArticleSpider.middlewares.ArticlespiderDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware' : None
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -83,6 +84,10 @@ IMAGES_STORE = os.path.join(project_dir, 'images')
 import sys
 BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, 'ArticleSpider'))
+
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+
+RANDOM_UA_TYPE = 'random'
 
 # IMAGES_MIN_HEIGHT = 100
 # IMAGES_MIN_WIDTH = 100

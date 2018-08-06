@@ -8,6 +8,7 @@ scrapy = "*"
 pillow = "*"
 mysqlclient = "*"
 requests = "*"
+fake-useragent = "*"
 
 [dev-packages]
 pylint = "*"
