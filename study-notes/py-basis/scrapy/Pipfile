@@ -10,6 +10,8 @@ mysqlclient = "*"
 requests = "*"
 fake-useragent = "*"
 selenium = "*"
+pyvirtualdisplay = "*"
+redis = "*"
 
 [dev-packages]
 pylint = "*"

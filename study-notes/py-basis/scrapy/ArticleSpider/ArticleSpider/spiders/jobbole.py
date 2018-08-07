@@ -9,17 +9,39 @@ from urllib import parse
 
 from ArticleSpider.items import JobBoleArticleItem, ArticleItemLoader
 from ArticleSpider.utils.common import get_md5
+from selenium import webdriver
+from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
 
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
     allowed_domains = ['blog.jobbole.com']
     start_urls = ['http://blog.jobbole.com/all-posts/']
 
+    def __init__(self, *args, **kwargs):
+        self.fail_urls = []
+        self.driver = webdriver.Chrome(
+            '/Users/zhushuangquan/Native Drive/GitHub/coderZsq.practice.data/study-notes/py-basis/scrapy/ArticleSpider/ArticleSpider/tools/chromedriver')
+        super(JobboleSpider, self).__init__(*args, **kwargs)
+        dispatcher.connect(self.spider_closed, signal=signals.spider_closed)
+
+    def spider_closed(self, spider):
+        # 当爬虫退出的时候关闭chrome
+        print('spider closed')
+        self.driver.quit()
+
+    # 收集伯乐在线所有404的url以及404页面数
+    handle_httpstatus_list = [404]
+
     def parse(self, response):
         # 获取文章列表页中的文章url并交给解析函数进行具体字段的解析
         # 获取下一页的url并交给scrapy进行下载
         
         # 解析列表页中的所有文章url并交给scrapy下载后进行解析
+        if response.status == 404:
+            self.fail_urls.append(response.url)
+            self.crawler.stats.inc_value('failed_url')
+
         post_nodes = response.css('#archive .floated-thumb .post-thumb a')
         for post_node in post_nodes:
             image_url = post_node.css('img::attr(src)').extract_first('')

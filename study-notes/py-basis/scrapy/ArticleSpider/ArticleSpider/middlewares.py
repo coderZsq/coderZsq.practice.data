@@ -125,3 +125,16 @@ class RandomProxyMiddleware(object):
     def process_request(self, request, spider):
         get_ip = GetIP()
         request.meta['proxy'] = get_ip.get_random_ip()
+
+import time
+from scrapy.http import HtmlResponse
+class JSPageMiddleware(object):
+
+    # 通过chrome请求动态网页
+    def process_request(self, request, spider):
+        if spider.name == 'jobbole':
+            spider.driver.get(request.url)
+            time.sleep(3)
+            print('访问:{0}'.format(request.url))
+            return HtmlResponse(url=spider.driver.current_url, body=spider.driver.page_source, encoding='utf-8', request=request)
+
