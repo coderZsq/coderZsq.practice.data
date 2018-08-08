@@ -55,7 +55,7 @@ COOKIES_ENABLED = False
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    # 'ArticleSpider.middlewares.JSPageMiddleware': 1,
+    'ArticleSpider.middlewares.JSPageMiddleware': 1,
     # 'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware' : None
 }
@@ -75,8 +75,8 @@ ITEM_PIPELINES = {
     # 'ArticleSpider.pipelines.JsonWithEncodingPipeline': 2,
     # 'ArticleSpider.pipelines.JsonExporterPipeline': 2,
     # 'ArticleSpider.pipelines.MysqlPipeline': 2,    
-    # 'ArticleSpider.pipelines.MysqlTwistedPipeline': 2,
-    'ArticleSpider.pipelines.ElasticsearchPipeline': 1,
+    'ArticleSpider.pipelines.MysqlTwistedPipeline': 1,
+    # 'ArticleSpider.pipelines.ElasticsearchPipeline': 1,
 }
 
 IMAGES_URLS_FIELD = 'front_image_url'

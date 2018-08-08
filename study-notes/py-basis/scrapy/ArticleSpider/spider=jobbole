@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: TwistedWeb/18.7.0
+Date: Wed, 08 Aug 2018 09:05:26 GMT
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE
+Access-Control-Allow-Headers:  X-Requested-With
+Content-Length: 116
+

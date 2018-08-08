@@ -13,7 +13,8 @@ selenium = "*"
 pyvirtualdisplay = "*"
 redis = "*"
 elasticsearch-dsl = "==5.1.0"
-django = "*"
+scrapyd = "*"
+scrapyd-client = "*"
 
 [dev-packages]
 pylint = "*"
