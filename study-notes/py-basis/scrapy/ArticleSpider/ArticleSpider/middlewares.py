@@ -137,4 +137,3 @@ class JSPageMiddleware(object):
             time.sleep(3)
             print('访问:{0}'.format(request.url))
             return HtmlResponse(url=spider.driver.current_url, body=spider.driver.page_source, encoding='utf-8', request=request)
-

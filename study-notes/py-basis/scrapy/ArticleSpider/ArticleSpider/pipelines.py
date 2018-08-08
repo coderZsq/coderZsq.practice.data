@@ -100,3 +100,10 @@ class ArticleImagePipeline(ImagesPipeline):
                 image_file_path = value['path']
             item['front_image_path'] = image_file_path
         return item
+
+class ElasticsearchPipeline(object):
+    # 将数据写入到es中
+    def process_item(self, item, spider):
+        # 将item转换为es的数据
+        item.save_to_es()
+        return item
