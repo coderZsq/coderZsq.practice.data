@@ -6,7 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+from fake_useragent import UserAgent
 
 class MovieSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -101,3 +101,33 @@ class MovieDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class RandomUserAgentMiddleware(object):
+    def __init__(self, crawler):
+        super(RandomUserAgentMiddleware, self).__init__()
+        self.ua = UserAgent()
+        self.ua_type = crawler.settings.get('RANDOM_UA_TYPE', 'random')
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    def process_request(self, request, spider):
+        def get_ua():
+            return getattr(self.ua, self.ua_type)
+        random_agent = get_ua()
+        request.headers.setdefault('User-Agent', random_agent)
+
+
+import time
+from scrapy.http import HtmlResponse
+
+
+class JSPageMiddleware(object):
+
+    def process_request(self, request, spider):
+        spider.driver.get(request.url)
+        time.sleep(3)
+        print('访问:{0}'.format(request.url))
+        return HtmlResponse(url=spider.driver.current_url, body=spider.driver.page_source, encoding='utf-8', request=request)

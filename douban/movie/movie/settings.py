@@ -52,9 +52,12 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
 #    'movie.middlewares.MovieDownloaderMiddleware': 543,
-#}
+    'movie.middlewares.JSPageMiddleware': 2,
+    'movie.middlewares.RandomUserAgentMiddleware': 1,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -65,7 +68,8 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'movie.pipelines.MoviePipeline': 1,
+#    'movie.pipelines.MoviePipeline': 1,
+    'movie.pipelines.MysqlTwistedPipeline': 1,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,3 +94,12 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.54 Safari/536.5'
+RANDOM_UA_TYPE = 'random'
+
+MYSQL_HOST = '127.0.0.1'
+MYSQL_DBNAME = 'movie'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = 'root'
+
+SQL_DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
+SQL_DATE_FORMAT = '%Y-%m-%d'

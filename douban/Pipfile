@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 scrapy = "*"
+selenium = "*"
+fake-useragent = "*"
+mysqlclient = "*"
+requests = "*"
 
 [dev-packages]
 
