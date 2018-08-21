@@ -12,6 +12,7 @@ flask-wtf = "*"
 pymongo = "*"
 mongoengine = "*"
 flask-mongoengine = "*"
+redis = "*"
 
 [dev-packages]
 
