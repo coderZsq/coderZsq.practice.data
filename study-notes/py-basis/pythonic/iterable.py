@@ -1,6 +1,7 @@
 import requests
 from collections import Iterable, Iterator
-from itertools import islice
+from itertools import islice, chain
+from random import randint
 
 def iterator():
     def iterable():
@@ -142,9 +143,38 @@ def iterator_sliced():
         print(x)
 
 
+def multi_iterator():
+    chinese = [randint(60, 100) for _ in range(40)]
+    math = [randint(60, 100) for _ in range(40)]
+    english = [randint(60, 100) for _ in range(40)]
+    for i in range(len(math)):
+        chinese[i] + math[i] + english[i]
+
+    print(list(zip([1, 2, 3, 4], ('a', 'b', 'c', 'd'), [7, 8, 9, 10])))
+
+    total = []
+    for c, m, e in zip(chinese, math, english):
+        total.append(c + m + e)
+    print(total)
+
+    for x in chain([1, 2, 3, 4], ['a', 'b', 'c']):
+        print(x)
+
+    e1 = [randint(60, 100) for _ in range(40)]
+    e2 = [randint(60, 100) for _ in range(42)]
+    e3 = [randint(60, 100) for _ in range(42)]
+    e4 = [randint(60, 100) for _ in range(39)]
+
+    count = 0
+    for s in chain(e1, e2, e3, e4):
+        if s > 90:
+            count += 1
+    print(count)
+
 if __name__ == '__main__':
     # iterator()
     # generater()
     # reversed_iterator()
-    iterator_sliced()
+    # iterator_sliced()
+    multi_iterator()
     pass
