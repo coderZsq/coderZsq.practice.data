@@ -105,3 +105,4 @@ venv.bak/
 
 node_modules/
 study-notes/py-basis/scrapy/ArticleSpider/ArticleSpider/images/full
+.wav
