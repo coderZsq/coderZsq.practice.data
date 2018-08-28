@@ -1,7 +1,7 @@
 from urllib.request import urlretrieve
 import csv
 import json
-from xml.etree.ElementTree import parse
+from xml.etree.ElementTree import parse, Element, ElementTree, tostring
 
 # urlretrieve('http://table.finance.yahoo.com/table.csv?s=000001.sz', 'pingan.csv')
 
@@ -37,7 +37,7 @@ def jsonrw():
     with open('demo.json', 'wt', encoding='utf8') as f:
         json.dump(l, f)
 
-def xmlrw():
+def xmlr():
     f = open('demo.xml')
     et = parse(f)
     root = et.getroot()
@@ -69,9 +69,16 @@ def xmlrw():
     print(root.findall('.//constraint[last()]'))
     print(root.findall('.//constraint[last()-1]'))
 
+def xmlw():
+    e = Element('Data')
+    print(e)
+    e.set('name', 'abc')
+    print(tostring(e))
+
 if __name__ == '__main__':
     # csvrw()
     # jsonrw()
-    xmlrw()
+    # xmlr()
+    xmlw()
     pass
 
