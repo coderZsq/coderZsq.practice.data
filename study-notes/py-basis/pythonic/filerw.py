@@ -2,6 +2,8 @@ from urllib.request import urlretrieve
 import csv
 import json
 from xml.etree.ElementTree import parse, Element, ElementTree, tostring
+import xlrd
+import xlwt
 
 # urlretrieve('http://table.finance.yahoo.com/table.csv?s=000001.sz', 'pingan.csv')
 
@@ -74,11 +76,69 @@ def xmlw():
     print(e)
     e.set('name', 'abc')
     print(tostring(e))
+    e.text = '123'
+    print(tostring(e))
+    e2 = Element('Row')
+    e3 = Element('Open')
+    e3.text = '8.80'
+    e2.append(e3)
+    print(tostring(e2))
+    e.text = None
+    e.append(e2)
+    print(tostring(e))
+    et = ElementTree(e)
+    et.write('demo2.xml')
+
+    def csvToXml(fname):
+        with open(fname, 'rt', encoding='utf8') as f:
+            reader = csv.reader(f)
+            headers = reader.__next__()
+            root = Element('Data')
+            for row in reader:
+                eRow = Element('Row')
+                root.append(eRow)
+                for tag, text in zip(headers, row):
+                    e = Element(tag)
+                    e.text = text
+                    eRow.append(e)
+        pretty(root)
+        return ElementTree(root)
+    
+    def pretty(e, level=0):
+        if len(e) > 0:
+            e.text = '\n' + '\t' * (level + 1)
+            for child in e:
+                pretty(child, level + 1)
+            child.tail = child.tail[:-1]
+        e.tail = '\n' + '\t' * level
+
+    et = csvToXml('pb_20180808_4.3.2.csv')
+    et.write('pb.xml')
+
+def excel():
+     book = xlrd.open_workbook('pb_20180808_4.3.2.xlsx')
+     print(book.sheets())
+     sheet = book.sheet_by_index(0)
+     print(sheet.nrows)
+     print(sheet.ncols)
+     cell = sheet.cell(0, 0)
+     print(cell.ctype)
+     print(xlrd.XL_CELL_TEXT)
+     print(xlrd.XL_CELL_NUMBER)
+     print(cell.value)
+     print(sheet.row(1))
+     print(sheet.row_values(1))
+     print(sheet.row_values(1, 1))
+
+     wbook = xlwt.Wrokbook()
+     wsheet = wbook.add_sheet('sheet1')
+     wbook.save('output.xlsx')
 
 if __name__ == '__main__':
     # csvrw()
     # jsonrw()
     # xmlr()
-    xmlw()
+    # xmlw()
+    # excel()
     pass
 
