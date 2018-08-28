@@ -1,0 +1,2 @@
+,"商品详情页,3.7.40版本以及以上如果无数据的情况，status返回为0，不在返回非0的错误码",MallGoodsDetail,Response,,,,
+,描述(Description),名称(Name),类别(Category),是否需要导入包(Import)默认为N,数据类型(Type),默认值(Default),
