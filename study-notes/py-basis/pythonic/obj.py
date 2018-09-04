@@ -2,6 +2,7 @@ import sys
 from telnetlib import Telnet
 from sys import stdin, stdout
 from collections import deque
+from math import pi
 
 def t1():
     class IntTuple(tuple):
@@ -111,9 +112,31 @@ def t3():
     client.cleanup()
     '''
 
+def t4():
+    class Circle(object):
+        def __init__(self, radius):
+            self.radius = radius
+
+        def getRadius(self):
+            return self.radius
+
+        def setRadius(self):
+            if not isinstance(value, (int, long, float)):
+                raise ValueError('wrong type.')
+            self.radius = float(value)
+
+        def getArea(self):
+            return self.radius ** 2 * pi
+
+    c = Circle(3.2)
+    c.radius = 'abc'
+    d = c.radius * 2
+    print d
+
 if __name__ == '__main__':
     # t1()
     # t2()
-    t3()
+    # t3()
+    t4()
     pass
 
