@@ -1,4 +1,4 @@
-#### SSH
+#### ssh
 
 ```
 $ ssh -p 22 parallels@172.16.23.91
@@ -25,4 +25,60 @@ Host Ubuntu
 HostName 172.16.23.91
 User parallels
 Port 22
+```
+
+#### chmod
+
+```
+-rw-rw-r--  1 parallels parallels    0 Jan 29 10:40 01.py
+
+$ chmod -rw 01.py
+----------  1 parallels parallels    0 Jan 29 10:40 01.py
+
+$ chmod +r 01.py
+-r--r--r--  1 parallels parallels    0 Jan 29 10:40 01.py
+
+$ chmod +w 01.py
+-rw-rw-r--  1 parallels parallels    0 Jan 29 10:40 01.py
+
+$ chmod +x 01.py
+-rwxrwxr-x  1 parallels parallels    0 Jan 29 10:40 01.py*
+$ ./01.py
+hello world
+
+$ chmod -x 01.py
+-rw-rw-r--  1 parallels parallels   40 Jan 29 10:48 01.py
+
+```
+
+```
+.
+├── Parallels Shared Folders -> /media/psf
+└── test
+    └── 01.py
+
+drwxrwxr-x  2 parallels parallels 4096 Jan 29 10:50 test/
+
+$ chmod -x test/
+drw-rw-r--  2 parallels parallels 4096 Jan 29 10:52 test/
+$ cd test/
+-bash: cd: test/: Permission denied
+
+$ chmod +x test/
+drwxrwxr-x  2 parallels parallels 4096 Jan 29 10:52 test/
+
+$ chmod -rw test/
+d--x--x--x  2 parallels parallels 4096 Jan 29 10:52 test/
+$ cd test/
+$ ls
+ls: cannot open directory '.': Permission denied
+
+$ chmod +r test/
+dr-xr-xr-x  2 parallels parallels 4096 Jan 29 10:52 test/
+$ cd test/
+$ ls
+01.py
+$ touch 02.py
+touch: cannot touch '02.py': Permission denied
+
 ```
