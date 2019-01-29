@@ -285,3 +285,328 @@ drwxr-xr-x  3 parallels parallels 4096 Jan 29 13:55 b/
 drwxr-xr-x  3 parallels parallels 4096 Jan 29 13:55 c/
 drwxr-xr-x  3 parallels parallels 4096 Jan 29 13:55 d/
 ```
+
+#### system
+
+```
+$ date
+Tue Jan 29 14:02:16 CST 2019
+
+```
+```
+$ cal
+    January 2019
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+$ cal -y
+                            2019
+      January               February               March
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+       1  2  3  4  5                  1  2                  1  2
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   3  4  5  6  7  8  9
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  10 11 12 13 14 15 16
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  17 18 19 20 21 22 23
+27 28 29 30 31        24 25 26 27 28        24 25 26 27 28 29 30
+                                            31
+
+       April                  May                   June
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6            1  2  3  4                     1
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29
+                                            30
+
+        July                 August              September
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28
+28 29 30 31           25 26 27 28 29 30 31  29 30
+
+
+      October               November              December
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31
+```
+```
+$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev              482388         0    482388   0% /dev
+tmpfs             100932      5020     95912   5% /run
+/dev/sda1       64891708   4512724  57059640   8% /
+tmpfs             504644       216    504428   1% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs             504644         0    504644   0% /sys/fs/cgroup
+Home           244810132 215911872  28898260  89% /media/psf/Home
+iCloud         244810132 215911872  28898260  89% /media/psf/iCloud
+Photo Library  244810132 215911872  28898260  89% /media/psf/Photo Library
+tmpfs             100932        80    100852   1% /run/user/1000
+tmpfs             100932         0    100932   0% /run/user/1001
+
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            472M     0  472M   0% /dev
+tmpfs            99M  5.0M   94M   5% /run
+/dev/sda1        62G  4.4G   55G   8% /
+tmpfs           493M  216K  493M   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           493M     0  493M   0% /sys/fs/cgroup
+Home            234G  206G   28G  89% /media/psf/Home
+iCloud          234G  206G   28G  89% /media/psf/iCloud
+Photo Library   234G  206G   28G  89% /media/psf/Photo Library
+tmpfs            99M   80K   99M   1% /run/user/1000
+tmpfs            99M     0   99M   0% /run/user/1001
+```
+
+```
+$ du -h
+4.0K	./test/a/b/c/d
+8.0K	./test/a/b/c
+12K		./test/a/b
+16K		./test/a
+20K		./test
+24K		.
+```
+```
+$ ps
+  PID TTY          TIME CMD
+ 1213 pts/4    00:00:00 bash
+ 8625 pts/4    00:00:00 ps
+ 
+$ ps au
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      1181  0.4 11.2 431940 113788 tty7    Ssl+ 10:58   0:48 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1200  0.0  0.3  61444  3560 pts/4    S    13:33   0:00 su parallels
+paralle+  1213  0.0  0.5  29644  5292 pts/4    S    13:33   0:00 bash
+root      1668  0.0  0.1  23008  1532 tty1     Ss+  10:59   0:00 /sbin/agetty --noclear tty1 linux
+paralle+  7358  0.0  0.5  29648  5192 pts/6    Ss+  11:12   0:00 -bash
+paralle+  9244  0.0  0.3  44432  3164 pts/4    R+   14:15   0:00 ps au
+zhangsan 29833  0.0  0.5  29536  5276 pts/4    Ss   13:12   0:00 -bash
+
+$ ps aux
+```
+
+```
+$ top
+
+top - 14:16:59 up  3:18,  3 users,  load average: 0.07, 0.02, 0.00
+Tasks: 200 total,   1 running, 199 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.8 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1009288 total,   106600 free,   547836 used,   354852 buff/cache
+KiB Swap:  1046524 total,   930956 free,   115568 used.   279776 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  784 root      20   0  222840   9744   3780 S   0.3  1.0   0:00.59 snapd
+  972 root      20   0   43496     24      0 S   0.3  0.0   0:01.47 prltoolsd
+ 1181 root      20   0  431940 113788  14056 S   0.3 11.3   0:48.81 Xorg
+ 2574 paralle+  20   0  427956   6004   5688 S   0.3  0.6   0:18.16 prlcc
+ 9443 paralle+  20   0   48868   3696   3080 R   0.3  0.4   0:00.04 top
+    1 root      20   0  185180   5000   3404 S   0.0  0.5   0:01.87 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd
+    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    
+$ q
+```
+
+```
+$ kill -9 pid
+```
+
+#### find
+```
+.
+├── 01.py
+├── 123.txt
+├── Parallels Shared Folders -> /media/psf
+└── test
+    └── a
+        └── b
+            └── c
+                └── d
+
+$ find . -name "*1*"
+./01.py
+./123.txt
+
+$ find -name "*.py"
+./01.py
+
+$ find -name "1*"
+./123.txt
+```
+
+#### ln
+
+```
+.
+├── 01.py
+├── a
+│   └── b
+│       └── c
+└── Parallels Shared Folders -> /media/psf
+
+$ mv 01.py a/b/c/
+.
+├── a
+│   └── b
+│       └── c
+│           └── 01.py
+└── Parallels Shared Folders -> /media/psf
+
+$ ln -s a/b/c/01.py 01_r
+lrwxrwxrwx  1 parallels parallels   11 Jan 29 14:32 01_r -> a/b/c/01.py*
+
+$ ln -s /home/parallels/Desktop/a/b/c/01.py 01_d
+lrwxrwxrwx  1 parallels parallels   35 Jan 29 14:38 01_d -> /home/parallels/Desktop/a/b/c/01.py*
+
+.
+├── 01_d -> /home/parallels/Desktop/a/b/c/01.py
+├── 01_r -> a/b/c/01.py
+├── a
+│   └── b
+│       └── c
+│           └── 01.py
+└── Parallels Shared Folders -> /media/psf
+
+$ mv 01* a/
+.
+├── a
+│   ├── 01_d -> /home/parallels/Desktop/a/b/c/01.py
+│   ├── 01_r -> a/b/c/01.py x
+│   └── b
+│       └── c
+│           └── 01.py
+└── Parallels Shared Folders -> /media/psf
+
+```
+
+```
+.
+├── a
+│   └── b
+│       └── c
+│           └── 01.py
+└── Parallels Shared Folders -> /media/psf
+
+$ ln /home/parallels/Desktop/a/b/c/01.py  01_hard
+-rw-rw-r--  2 parallels parallels    0 Jan 29 14:45 01_hard
+
+$ rm a/b/c/01.py
+.
+├── 01_hard
+├── a
+│   └── b
+│       └── c
+└── Parallels Shared Folders -> /media/psf
+-rw-rw-r--  1 parallels parallels    0 Jan 29 14:45 01_hard
+
+```
+
+#### tar
+
+```
+.
+├── 01.py
+├── 02.py
+├── 03.py
+└── Parallels Shared Folders -> /media/psf
+
+$ tar -cvf py.tar 01.py 02.py 03.py
+-rw-rw-r-- 1 parallels parallels 10K Jan 29 15:01 py.tar
+
+$ mkdir tar
+$ mv py.tar tar/
+
+.
+├── 01.py
+├── 02.py
+├── 03.py
+├── Parallels Shared Folders -> /media/psf
+└── tar
+    └── py.tar
+    
+$ tar -xvf py.tar
+
+.
+├── 01.py
+├── 02.py
+├── 03.py
+├── Parallels Shared Folders -> /media/psf
+└── tar
+    ├── 01.py
+    ├── 02.py
+    ├── 03.py
+    └── py.tar
+    
+$ tar -zcvf py.tar.gz *.py
+-rw-rw-r-- 1 parallels parallels  139 Jan 29 15:08 py.tar.gz
+
+$ mv py.tar.gz gz/
+.
+├── 01.py
+├── 02.py
+├── 03.py
+├── gz
+│   └── py.tar.gz
+├── Parallels Shared Folders -> /media/psf
+└── tar
+    ├── 01.py
+    ├── 02.py
+    ├── 03.py
+    └── py.tar
+
+$ tar -zxvf py.tar.gz
+.
+├── 01.py
+├── 02.py
+├── 03.py
+├── gz
+│   ├── 01.py
+│   ├── 02.py
+│   ├── 03.py
+│   └── py.tar.gz
+├── Parallels Shared Folders -> /media/psf
+└── tar
+    ├── 01.py
+    ├── 02.py
+    ├── 03.py
+    └── py.tar
+    
+$ tar -jcvf py.tar.bz2 *.py
+-rw-rw-r-- 1 parallels parallels  150 Jan 29 15:15 py.tar.bz2
+$ tar -jxvf py.tar.bz2 -C bz2/
+
+.
+├── 01.py
+├── 02.py
+├── 03.py
+├── bz2
+│   ├── 01.py
+│   ├── 02.py
+│   └── 03.py
+├── gz
+│   ├── 01.py
+│   ├── 02.py
+│   ├── 03.py
+│   └── py.tar.gz
+├── Parallels Shared Folders -> /media/psf
+├── py.tar.bz2
+└── tar
+    ├── 01.py
+    ├── 02.py
+    ├── 03.py
+    └── py.tar
+```
+
