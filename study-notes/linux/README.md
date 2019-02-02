@@ -610,3 +610,9 @@ $ tar -jxvf py.tar.bz2 -C bz2/
     └── py.tar
 ```
 
+#### ifconfig
+
+```
+$ sudo ifconfig en0 down
+$ sudo ifconfig en0 up
+```
