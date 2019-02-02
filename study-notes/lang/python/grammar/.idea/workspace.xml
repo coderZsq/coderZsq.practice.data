@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24ee8ec-d50b-4be1-bede-4a533107ff61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13_file/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_01_读取文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_02_读取文件后文件指针会改变.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_03_写入文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_04_分行读取文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_05_复制文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_06_复制大文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_07_python2字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_file/_08_eval计算器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_01_pygame入门.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_02_使用Rect描述英雄.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_03_创建游戏窗口.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_04_绘制图像.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_05_绘制英雄图像.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_06_update方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_07_认识游戏循环.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_08_更新英雄位置.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_09_英雄循环飞行.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_10_事件监听.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_11_监听退出事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/_12_演练精灵.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/plane_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_game/plane_sprites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/grammar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grammar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_game/plane_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/14_game/plane_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_game/plane_sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/14_game/plane_sprites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +26,7 @@
     <SUITE FILE_PATH="coverage/grammar$_05_.coverage" NAME="_05_复制文件 Coverage Results" MODIFIED="1549006627017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
     <SUITE FILE_PATH="coverage/grammar$10_.coverage" NAME="10_嵌套打印小星星 Coverage Results" MODIFIED="1548840943273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$02_.coverage" NAME="02_判断年龄改进版 Coverage Results" MODIFIED="1548835310874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
-    <SUITE FILE_PATH="coverage/grammar$plane_main.coverage" NAME="plane_main Coverage Results" MODIFIED="1549014848376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
+    <SUITE FILE_PATH="coverage/grammar$plane_main.coverage" NAME="plane_main Coverage Results" MODIFIED="1549074687028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
     <SUITE FILE_PATH="coverage/grammar$_13_.coverage" NAME="_13_属性获取机制 Coverage Results" MODIFIED="1548997679722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_04_import.coverage" NAME="_04_import同时指定别名 Coverage Results" MODIFIED="1549001955920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
     <SUITE FILE_PATH="coverage/grammar$1.coverage" NAME="第1个函数 Coverage Results" MODIFIED="1548901782422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_func" />
@@ -70,7 +48,7 @@
     <SUITE FILE_PATH="coverage/grammar$_05_from_import.coverage" NAME="_05_from_import导入 Coverage Results" MODIFIED="1549002114142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
     <SUITE FILE_PATH="coverage/grammar$_04_1.coverage" NAME="_04_第1个函数改造 Coverage Results" MODIFIED="1548902073228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_func" />
     <SUITE FILE_PATH="coverage/grammar$_06_.coverage" NAME="_06_复制大文件 Coverage Results" MODIFIED="1549006738647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
-    <SUITE FILE_PATH="coverage/grammar$plane_sprites.coverage" NAME="plane_sprites Coverage Results" MODIFIED="1549014844785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
+    <SUITE FILE_PATH="coverage/grammar$plane_sprites.coverage" NAME="plane_sprites Coverage Results" MODIFIED="1549074281743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
     <SUITE FILE_PATH="coverage/grammar$02_Python.coverage" NAME="02_第二个Python程序 Coverage Results" MODIFIED="1548834366168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/grammar$_18___new__.coverage" NAME="_18___new__方法 Coverage Results" MODIFIED="1548999205026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_14_.coverage" NAME="_14_使用对象名访问类属性的问题 Coverage Results" MODIFIED="1548997866555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
@@ -121,43 +99,45 @@
           <entry key="README[复件]" value="2" />
           <entry key="_04_第1个函数改造" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="213" />
+          <entry key="py" value="214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="214" />
+          <entry key="Python" value="215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="42" />
           <entry key="README[复件]" value="2" />
-          <entry key="py" value="17632" />
+          <entry key="py" value="18667" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="17632" />
+          <entry key="Python" value="18667" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14_game/plane_sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="382">
+              <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1549014843487" expanded="true" signature="131:136" ph="..." />
-                <marker date="1549014843487" expanded="true" signature="457:578" ph="..." />
-                <marker date="1549014843487" expanded="true" signature="757:1164" ph="..." />
+                <marker date="1549074490779" expanded="true" signature="131:136" ph="..." />
+                <marker date="1549074490779" expanded="true" signature="457:578" ph="..." />
+                <marker date="1549074490779" expanded="true" signature="757:1163" ph="..." />
+                <marker date="1549074490779" expanded="true" signature="1250:1255" ph="..." />
+                <marker date="1549074490779" expanded="true" signature="1960:2202" ph="..." />
               </folding>
             </state>
           </provider>
@@ -175,15 +155,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/14_game/plane_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="448">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1549014419134" expanded="true" signature="168:173" ph="..." />
-                <marker date="1549014419134" expanded="true" signature="604:610" ph="..." />
+                <marker date="1549074685695" expanded="true" signature="207:212" ph="..." />
+                <marker date="1549074685695" expanded="true" signature="779:785" ph="..." />
+                <marker date="1549074685695" expanded="true" signature="1821:2086" ph="..." />
               </folding>
             </state>
           </provider>
@@ -197,6 +178,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.speed</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -253,8 +239,8 @@
         <option value="$PROJECT_DIR$/14_game/_10_事件监听.py" />
         <option value="$PROJECT_DIR$/14_game/_11_监听退出事件.py" />
         <option value="$PROJECT_DIR$/14_game/_12_演练精灵.py" />
-        <option value="$PROJECT_DIR$/14_game/plane_main.py" />
         <option value="$PROJECT_DIR$/14_game/plane_sprites.py" />
+        <option value="$PROJECT_DIR$/14_game/plane_main.py" />
       </list>
     </option>
   </component>
@@ -481,12 +467,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26734695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27142859" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -823,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pygame/sprite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14_game/_11_监听退出事件.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -851,6 +830,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pygame/sprite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23200">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/14_game/_12_演练精灵.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -861,27 +847,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14_game/plane_main.py">
+    <entry file="file://$PROJECT_DIR$/14_game/plane_sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="382">
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1549014419134" expanded="true" signature="168:173" ph="..." />
-            <marker date="1549014419134" expanded="true" signature="604:610" ph="..." />
+            <marker date="1549074490779" expanded="true" signature="131:136" ph="..." />
+            <marker date="1549074490779" expanded="true" signature="457:578" ph="..." />
+            <marker date="1549074490779" expanded="true" signature="757:1163" ph="..." />
+            <marker date="1549074490779" expanded="true" signature="1250:1255" ph="..." />
+            <marker date="1549074490779" expanded="true" signature="1960:2202" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14_game/plane_sprites.py">
+    <entry file="file://$PROJECT_DIR$/14_game/plane_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="448">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1549014843487" expanded="true" signature="131:136" ph="..." />
-            <marker date="1549014843487" expanded="true" signature="457:578" ph="..." />
-            <marker date="1549014843487" expanded="true" signature="757:1164" ph="..." />
+            <marker date="1549074685695" expanded="true" signature="207:212" ph="..." />
+            <marker date="1549074685695" expanded="true" signature="779:785" ph="..." />
+            <marker date="1549074685695" expanded="true" signature="1821:2086" ph="..." />
           </folding>
         </state>
       </provider>
