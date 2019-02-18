@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24ee8ec-d50b-4be1-bede-4a533107ff61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16_multitask/_15_进程池.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_18_自己实现一个可以迭代的对象-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_19_自己实现一个可以迭代的对象-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_20_自己实现一个可以迭代的对象-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_21_自己实现一个可以迭代的对象-4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_22_自己实现一个可以迭代的对象-5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_23_fibonacci-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_23_fibonacci-2-迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_24_使用生成器完成feibonacii数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_25_生成器的研究.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_26_通过异常判断生成器已经结束.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_27_通过send来启动生成器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_28_使用yield完成多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_29_使用greenlet完成多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_30_使用gevent实现多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_31_gevent打补丁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_regex/_01_判断变量名是否符合要求.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_regex/_02_匹配163邮箱地址.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_web_server/_03_返回inde.html页面.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_web_server/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/grammar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grammar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,111 +19,116 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/grammar$09_.coverage" NAME="09_格式化输出 Coverage Results" MODIFIED="1548833666648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/grammar$_01_.coverage" NAME="_01_没有多任务的程序 Coverage Results" MODIFIED="1549090599998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_01_.coverage" NAME="_01_判断变量名是否符合要求 Coverage Results" MODIFIED="1550460431546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17_regex" />
     <SUITE FILE_PATH="coverage/grammar$_28_yield.coverage" NAME="_28_使用yield完成多任务 Coverage Results" MODIFIED="1549174859828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_07_python2.coverage" NAME="_07_python2字符串 Coverage Results" MODIFIED="1549007262095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
     <SUITE FILE_PATH="coverage/grammar$_16___client.coverage" NAME="_16_案例:文件下载-client Coverage Results" MODIFIED="1549089529299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$_07_from_import.coverage" NAME="_07_from_import导入全部 Coverage Results" MODIFIED="1549002515067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
-    <SUITE FILE_PATH="coverage/grammar$_03_import.coverage" NAME="_03_import导入模块 Coverage Results" MODIFIED="1549001812978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
     <SUITE FILE_PATH="coverage/grammar$_08_.coverage" NAME="_08_模块的搜索顺序 Coverage Results" MODIFIED="1549002654424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
-    <SUITE FILE_PATH="coverage/grammar$_01_socket.coverage" NAME="_01_socket的基本使用 Coverage Results" MODIFIED="1549078170897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$cards_main.coverage" NAME="cards_main Coverage Results" MODIFIED="1548918714563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_project" />
     <SUITE FILE_PATH="coverage/grammar$_16_.coverage" NAME="_16_静态方法 Coverage Results" MODIFIED="1548998286531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$07_continue.coverage" NAME="07_continue Coverage Results" MODIFIED="1548840185600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$_23_fibonacci_2_.coverage" NAME="_23_fibonacci-2-迭代器 Coverage Results" MODIFIED="1549171415682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_23_fibonacci_1.coverage" NAME="_23_fibonacci-1 Coverage Results" MODIFIED="1549171131406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$05_.coverage" NAME="05_偶数求和 Coverage Results" MODIFIED="1548839631484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$_05_.coverage" NAME="_05_验证创建线程以及运行时间 Coverage Results" MODIFIED="1549092386099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_19__2.coverage" NAME="_19_自己实现一个可以迭代的对象-2 Coverage Results" MODIFIED="1549170039389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_09__.coverage" NAME="_09_共享全局变量的问题-资源竞争 Coverage Results" MODIFIED="1549094254388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$10_.coverage" NAME="10_嵌套打印小星星 Coverage Results" MODIFIED="1548840943273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$02_.coverage" NAME="02_判断年龄改进版 Coverage Results" MODIFIED="1548835310874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
+    <SUITE FILE_PATH="coverage/grammar$_01_http.coverage" NAME="_01_实现简单的http服务器 Coverage Results" MODIFIED="1550468581717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
     <SUITE FILE_PATH="coverage/grammar$plane_main.coverage" NAME="plane_main Coverage Results" MODIFIED="1549074687028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
-    <SUITE FILE_PATH="coverage/grammar$_13_.coverage" NAME="_13_使用进程实现多任务 Coverage Results" MODIFIED="1549097495002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_04_import.coverage" NAME="_04_import同时指定别名 Coverage Results" MODIFIED="1549001955920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
-    <SUITE FILE_PATH="coverage/grammar$_13_tcp_server_.coverage" NAME="_13_tcp服务器(server) Coverage Results" MODIFIED="1549086858753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$1.coverage" NAME="第1个函数 Coverage Results" MODIFIED="1548901782422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_func" />
-    <SUITE FILE_PATH="coverage/grammar$_07___del__.coverage" NAME="_07___del__方法 Coverage Results" MODIFIED="1548928417470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
-    <SUITE FILE_PATH="coverage/grammar$01_.coverage" NAME="01_重复执行 Coverage Results" MODIFIED="1548838492726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_09_.coverage" NAME="_09_使用同一个套接字进行收发数据 Coverage Results" MODIFIED="1549084021953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
-    <SUITE FILE_PATH="coverage/grammar$_11__udp.coverage" NAME="_11_案例:udp聊天升级可以控制操作 Coverage Results" MODIFIED="1549085069550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$_15_.coverage" NAME="_15_进程池 Coverage Results" MODIFIED="1549161996384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$08_.coverage" NAME="08_打印小星星 Coverage Results" MODIFIED="1548840483888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$_02_.coverage" NAME="_02_读取文件后文件指针会改变 Coverage Results" MODIFIED="1549006062588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
-    <SUITE FILE_PATH="coverage/grammar$_21_.coverage" NAME="_21_遍历字典的列表 Coverage Results" MODIFIED="1548914067814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_sequence" />
+    <SUITE FILE_PATH="coverage/grammar$_02_.coverage" NAME="_02_设置套接字选项 Coverage Results" MODIFIED="1550469503833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
     <SUITE FILE_PATH="coverage/grammar$_22__5.coverage" NAME="_22_自己实现一个可以迭代的对象-5 Coverage Results" MODIFIED="1549170559624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_27_send.coverage" NAME="_27_通过send来启动生成器 Coverage Results" MODIFIED="1549173815150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_12__02_.coverage" NAME="_12_摆放家具_02_房子类 Coverage Results" MODIFIED="1548988193431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
-    <SUITE FILE_PATH="coverage/grammar$_19_.coverage" NAME="_19_单例 Coverage Results" MODIFIED="1548999474862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_21__4.coverage" NAME="_21_自己实现一个可以迭代的对象-4 Coverage Results" MODIFIED="1549170407963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_30_gevent.coverage" NAME="_30_使用gevent实现多任务 Coverage Results" MODIFIED="1549175889596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_16__03_.coverage" NAME="_16_士兵突击_03_士兵开火 Coverage Results" MODIFIED="1548989281858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
-    <SUITE FILE_PATH="coverage/grammar$_08_eval.coverage" NAME="_08_eval计算器 Coverage Results" MODIFIED="1549007380053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
     <SUITE FILE_PATH="coverage/grammar$_29_greenlet.coverage" NAME="_29_使用greenlet完成多任务 Coverage Results" MODIFIED="1549175270481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_14__01_.coverage" NAME="_14_士兵突击_01_枪类 Coverage Results" MODIFIED="1548988809833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_02_Rect.coverage" NAME="_02_使用Rect描述英雄 Coverage Results" MODIFIED="1549008497294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
-    <SUITE FILE_PATH="coverage/grammar$_12_.coverage" NAME="_12_类属性 Coverage Results" MODIFIED="1548997516712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
-    <SUITE FILE_PATH="coverage/grammar$01_hello.coverage" NAME="01_hello Coverage Results" MODIFIED="1548834361499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/grammar$_05_from_import.coverage" NAME="_05_from_import导入 Coverage Results" MODIFIED="1549002114142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
     <SUITE FILE_PATH="coverage/grammar$_04_1.coverage" NAME="_04_第1个函数改造 Coverage Results" MODIFIED="1548902073228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_func" />
     <SUITE FILE_PATH="coverage/grammar$_25_.coverage" NAME="_25_生成器的研究 Coverage Results" MODIFIED="1549173131027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_32_gevent_img_downloader.coverage" NAME="_32_gevent_img_downloader Coverage Results" MODIFIED="1549177202434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_06_.coverage" NAME="_06_函数里面修改全局变量 Coverage Results" MODIFIED="1549093083295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$plane_sprites.coverage" NAME="plane_sprites Coverage Results" MODIFIED="1549074281743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
     <SUITE FILE_PATH="coverage/grammar$_10__udp.coverage" NAME="_10_案例:udp聊天 Coverage Results" MODIFIED="1549084715549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$02_Python.coverage" NAME="02_第二个Python程序 Coverage Results" MODIFIED="1548834366168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
-    <SUITE FILE_PATH="coverage/grammar$_18__1.coverage" NAME="_18_自己实现一个可以迭代的对象-1 Coverage Results" MODIFIED="1549169800151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_18___new__.coverage" NAME="_18___new__方法 Coverage Results" MODIFIED="1548999205026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_20__3.coverage" NAME="_20_自己实现一个可以迭代的对象-3 Coverage Results" MODIFIED="1549170195558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_14_.coverage" NAME="_14_循环为多个客户端服务器 Coverage Results" MODIFIED="1549088143908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
-    <SUITE FILE_PATH="coverage/grammar$_12_udp.coverage" NAME="_12_多任务udp聊天器 Coverage Results" MODIFIED="1549096591948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_08_2.coverage" NAME="_08_多线程共享全局变量2 Coverage Results" MODIFIED="1549093712620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$04_.coverage" NAME="04_累加求和 Coverage Results" MODIFIED="1548839408050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$11_.coverage" NAME="11_九九乘法表 Coverage Results" MODIFIED="1548841479383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_14_Queue.coverage" NAME="_14_多进程之间通过Queue实现数据共享 Coverage Results" MODIFIED="1549099297949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_02_del_.coverage" NAME="_02_del 关键字 Coverage Results" MODIFIED="1548905724384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_sequence" />
-    <SUITE FILE_PATH="coverage/grammar$_03_.coverage" NAME="_03_查看线程数 Coverage Results" MODIFIED="1549091919310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_17___server.coverage" NAME="_17_案例:文件下载-server Coverage Results" MODIFIED="1549089418502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$_11_.coverage" NAME="_11_多态案例 Coverage Results" MODIFIED="1548997099664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_07_.coverage" NAME="_07_线程共享全局变量 Coverage Results" MODIFIED="1549093320473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_06_from_import_.coverage" NAME="_06_from_import_注意事项 Coverage Results" MODIFIED="1549002321008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
+    <SUITE FILE_PATH="coverage/grammar$_12_tcp_client_.coverage" NAME="_12_tcp客户端(client) Coverage Results" MODIFIED="1549088163147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
+    <SUITE FILE_PATH="coverage/grammar$_09___.coverage" NAME="_09_交换数字(面试题) Coverage Results" MODIFIED="1548922580034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_advance" />
+    <SUITE FILE_PATH="coverage/grammar$setup.coverage" NAME="setup Coverage Results" MODIFIED="1549004337194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_module_release" />
+    <SUITE FILE_PATH="coverage/grammar$_13__03_.coverage" NAME="_13_摆放家具_03_添加家具 Coverage Results" MODIFIED="1548988431298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
+    <SUITE FILE_PATH="coverage/grammar$_31_gevent.coverage" NAME="_31_gevent打补丁 Coverage Results" MODIFIED="1549176140392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$09_print.coverage" NAME="09_print函数的结尾 Coverage Results" MODIFIED="1548840614358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$06_.coverage" NAME="06_女友的节日 Coverage Results" MODIFIED="1548836453344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
+    <SUITE FILE_PATH="coverage/grammar$_04_.coverage" NAME="_04_根据用户的需求返回相应的页面 Coverage Results" MODIFIED="1550474190763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
+    <SUITE FILE_PATH="coverage/grammar$04_qq.coverage" NAME="04_qq号码 Coverage Results" MODIFIED="1548830828618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grammar$03_.coverage" NAME="03_程序计数 Coverage Results" MODIFIED="1548839003261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$_17_.coverage" NAME="_17_方法综合案例 Coverage Results" MODIFIED="1548998694023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
+    <SUITE FILE_PATH="coverage/grammar$_02_demo.coverage" NAME="_02_多任务线程demo Coverage Results" MODIFIED="1549090932279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$09_.coverage" NAME="09_格式化输出 Coverage Results" MODIFIED="1548833666648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grammar$_07_python2.coverage" NAME="_07_python2字符串 Coverage Results" MODIFIED="1549007262095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
+    <SUITE FILE_PATH="coverage/grammar$_03_import.coverage" NAME="_03_import导入模块 Coverage Results" MODIFIED="1549001812978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
+    <SUITE FILE_PATH="coverage/grammar$_01_socket.coverage" NAME="_01_socket的基本使用 Coverage Results" MODIFIED="1549078170897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
+    <SUITE FILE_PATH="coverage/grammar$_23_fibonacci_2_.coverage" NAME="_23_fibonacci-2-迭代器 Coverage Results" MODIFIED="1549171415682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_05_.coverage" NAME="_05_验证创建线程以及运行时间 Coverage Results" MODIFIED="1549092386099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_19__2.coverage" NAME="_19_自己实现一个可以迭代的对象-2 Coverage Results" MODIFIED="1549170039389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$10_.coverage" NAME="10_嵌套打印小星星 Coverage Results" MODIFIED="1548840943273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$02_.coverage" NAME="02_判断年龄改进版 Coverage Results" MODIFIED="1548835310874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
+    <SUITE FILE_PATH="coverage/grammar$_13_.coverage" NAME="_13_使用进程实现多任务 Coverage Results" MODIFIED="1549097495002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_13_tcp_server_.coverage" NAME="_13_tcp服务器(server) Coverage Results" MODIFIED="1549086858753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
+    <SUITE FILE_PATH="coverage/grammar$_07___del__.coverage" NAME="_07___del__方法 Coverage Results" MODIFIED="1548928417470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
+    <SUITE FILE_PATH="coverage/grammar$01_.coverage" NAME="01_重复执行 Coverage Results" MODIFIED="1548838492726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$_11__udp.coverage" NAME="_11_案例:udp聊天升级可以控制操作 Coverage Results" MODIFIED="1549085069550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
+    <SUITE FILE_PATH="coverage/grammar$08_.coverage" NAME="08_打印小星星 Coverage Results" MODIFIED="1548840483888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$_21_.coverage" NAME="_21_遍历字典的列表 Coverage Results" MODIFIED="1548914067814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_sequence" />
+    <SUITE FILE_PATH="coverage/grammar$_02_163.coverage" NAME="_02_匹配163邮箱地址 Coverage Results" MODIFIED="1550460627778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17_regex" />
+    <SUITE FILE_PATH="coverage/grammar$_27_send.coverage" NAME="_27_通过send来启动生成器 Coverage Results" MODIFIED="1549173815150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_19_.coverage" NAME="_19_单例 Coverage Results" MODIFIED="1548999474862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
+    <SUITE FILE_PATH="coverage/grammar$_16__03_.coverage" NAME="_16_士兵突击_03_士兵开火 Coverage Results" MODIFIED="1548989281858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
+    <SUITE FILE_PATH="coverage/grammar$_08_eval.coverage" NAME="_08_eval计算器 Coverage Results" MODIFIED="1549007380053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
+    <SUITE FILE_PATH="coverage/grammar$_12_.coverage" NAME="_12_类属性 Coverage Results" MODIFIED="1548997516712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
+    <SUITE FILE_PATH="coverage/grammar$01_hello.coverage" NAME="01_hello Coverage Results" MODIFIED="1548834361499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
+    <SUITE FILE_PATH="coverage/grammar$_06_.coverage" NAME="_06_函数里面修改全局变量 Coverage Results" MODIFIED="1549093083295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_18__1.coverage" NAME="_18_自己实现一个可以迭代的对象-1 Coverage Results" MODIFIED="1549169800151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$_03_inde_html.coverage" NAME="_03_返回inde.html页面 Coverage Results" MODIFIED="1550472263909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
+    <SUITE FILE_PATH="coverage/grammar$_12_udp.coverage" NAME="_12_多任务udp聊天器 Coverage Results" MODIFIED="1549096591948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$04_.coverage" NAME="04_累加求和 Coverage Results" MODIFIED="1548839408050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
+    <SUITE FILE_PATH="coverage/grammar$_03_.coverage" NAME="_03_查看线程数 Coverage Results" MODIFIED="1549091919310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_12___.coverage" NAME="_12_加等于(面试题) Coverage Results" MODIFIED="1548923390958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_advance" />
     <SUITE FILE_PATH="coverage/grammar$07_.coverage" NAME="07_火车站安检 Coverage Results" MODIFIED="1548836943866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
     <SUITE FILE_PATH="coverage/grammar$_26_.coverage" NAME="_26_通过异常判断生成器已经结束 Coverage Results" MODIFIED="1549173514996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_20_for.coverage" NAME="_20_for语法演练 Coverage Results" MODIFIED="1548913786885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_sequence" />
     <SUITE FILE_PATH="coverage/grammar$_18_.coverage" NAME="_18_伪私有属性和方法 Coverage Results" MODIFIED="1548989704293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_09___name__.coverage" NAME="_09___name__测试导入 Coverage Results" MODIFIED="1549003021853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
-    <SUITE FILE_PATH="coverage/grammar$_06_from_import_.coverage" NAME="_06_from_import_注意事项 Coverage Results" MODIFIED="1549002321008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
-    <SUITE FILE_PATH="coverage/grammar$_12_tcp_client_.coverage" NAME="_12_tcp客户端(client) Coverage Results" MODIFIED="1549088163147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$_24_feibonacii.coverage" NAME="_24_使用生成器完成feibonacii数列 Coverage Results" MODIFIED="1549172880604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_09___.coverage" NAME="_09_交换数字(面试题) Coverage Results" MODIFIED="1548922580034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_advance" />
     <SUITE FILE_PATH="coverage/grammar$12_.coverage" NAME="12_转义字符 Coverage Results" MODIFIED="1548841566606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_11__01_.coverage" NAME="_11_摆放家具_01_家具类 Coverage Results" MODIFIED="1548988183587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
-    <SUITE FILE_PATH="coverage/grammar$setup.coverage" NAME="setup Coverage Results" MODIFIED="1549004337194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_module_release" />
-    <SUITE FILE_PATH="coverage/grammar$_13__03_.coverage" NAME="_13_摆放家具_03_添加家具 Coverage Results" MODIFIED="1548988431298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
-    <SUITE FILE_PATH="coverage/grammar$_31_gevent.coverage" NAME="_31_gevent打补丁 Coverage Results" MODIFIED="1549176140392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_10_.coverage" NAME="_10_使用互斥锁解决资源竞争 Coverage Results" MODIFIED="1549095258253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$cards_tools.coverage" NAME="cards_tools Coverage Results" MODIFIED="1548917846356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_project" />
     <SUITE FILE_PATH="coverage/grammar$06_break.coverage" NAME="06_break Coverage Results" MODIFIED="1548840179733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$09_print.coverage" NAME="09_print函数的结尾 Coverage Results" MODIFIED="1548840614358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$06_.coverage" NAME="06_女友的节日 Coverage Results" MODIFIED="1548836453344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
-    <SUITE FILE_PATH="coverage/grammar$_04_.coverage" NAME="_04_循环查看当前运行的线程 Coverage Results" MODIFIED="1549092202051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$04_qq.coverage" NAME="04_qq号码 Coverage Results" MODIFIED="1548830828618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/grammar$03_.coverage" NAME="03_程序计数 Coverage Results" MODIFIED="1548839003261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
-    <SUITE FILE_PATH="coverage/grammar$_17_.coverage" NAME="_17_方法综合案例 Coverage Results" MODIFIED="1548998694023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
     <SUITE FILE_PATH="coverage/grammar$_15__02_.coverage" NAME="_15_士兵突击_02_士兵类 Coverage Results" MODIFIED="1548989133529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_11_2.coverage" NAME="_11_使用互斥锁解决资源竞争2 Coverage Results" MODIFIED="1549095341463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
-    <SUITE FILE_PATH="coverage/grammar$_02_demo.coverage" NAME="_02_多任务线程demo Coverage Results" MODIFIED="1549090932279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_20_.coverage" NAME="_20_单例初始化一次 Coverage Results" MODIFIED="1548999670447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="756015896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,29 +138,33 @@
           <entry key="README" value="3" />
           <entry key="README[复件]" value="2" />
           <entry key="_04_第1个函数改造" value="1" />
-          <entry key="jpg" value="1" />
+          <entry key="html" value="1" />
+          <entry key="jpg" value="5" />
           <entry key="png" value="1" />
-          <entry key="py" value="295" />
+          <entry key="py" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="296" />
+          <entry key="Python" value="304" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="42" />
           <entry key="README[复件]" value="2" />
-          <entry key="py" value="25967" />
+          <entry key="html" value="42" />
+          <entry key="py" value="27164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="42" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="25967" />
+          <entry key="Python" value="27164" />
         </counts>
       </usages-collector>
     </session>
@@ -173,107 +172,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_24_使用生成器完成feibonacii数列.py">
+        <entry file="file://$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="285">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <marker date="1549172880592" expanded="true" signature="47:52" ph="..." />
+                <marker date="1550468581703" expanded="true" signature="47:260" ph="..." />
+                <marker date="1550468581703" expanded="true" signature="271:563" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_25_生成器的研究.py">
+        <entry file="file://$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="23" column="18" selection-end-line="34" />
+            <state relative-caret-position="323">
+              <caret line="17" column="22" lean-forward="true" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_26_通过异常判断生成器已经结束.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_27_通过send来启动生成器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_28_使用yield完成多任务.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding>
-                <marker date="1549174859816" expanded="true" signature="27:32" ph="..." />
-                <marker date="1549174859816" expanded="true" signature="122:127" ph="..." />
-                <marker date="1549174859816" expanded="true" signature="215:304" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_29_使用greenlet完成多任务.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1549175268801" expanded="true" signature="80:85" ph="..." />
-                <marker date="1549175268801" expanded="true" signature="181:186" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_30_使用gevent实现多任务.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#22#35#0" expanded="true" />
-                <marker date="1549175889583" expanded="true" signature="60:65" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_31_gevent打补丁.py">
+        <entry file="file://$PROJECT_DIR$/18_web_server/_03_返回inde.html页面.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="e#22#35#0" expanded="true" />
-              </folding>
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py">
+        <entry file="file://$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="257">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <marker date="1549177198690" expanded="true" signature="98:237" ph="..." />
-                <marker date="1549177198690" expanded="true" signature="248:521" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10_expection/_04_完整的异常语法.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/18_web_server/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -283,6 +233,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -298,13 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/15_socket/_09_使用同一个套接字进行收发数据.py" />
-        <option value="$PROJECT_DIR$/15_socket/_10_案例:udp聊天.py" />
-        <option value="$PROJECT_DIR$/15_socket/_11_案例:udp聊天升级可以控制操作.py" />
-        <option value="$PROJECT_DIR$/15_socket/_12_tcp_client.py" />
-        <option value="$PROJECT_DIR$/15_socket/_12_tcp客户端(client).py" />
-        <option value="$PROJECT_DIR$/15_socket/_13_tcp服务器(server).py" />
-        <option value="$PROJECT_DIR$/15_socket/_14_循环为多个客户端服务器.py" />
         <option value="$PROJECT_DIR$/15_socket/_15_循环为多个客户端服务并且多次服务一个客户端.py" />
         <option value="$PROJECT_DIR$/15_socket/_17_案例:文件下载-server.py" />
         <option value="$PROJECT_DIR$/15_socket/1.py" />
@@ -349,6 +293,13 @@
         <option value="$PROJECT_DIR$/16_multitask/_30_使用gevent实现多任务.py" />
         <option value="$PROJECT_DIR$/16_multitask/_31_gevent打补丁.py" />
         <option value="$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py" />
+        <option value="$PROJECT_DIR$/17_regex/_01_判断变量名是否符合要求.py" />
+        <option value="$PROJECT_DIR$/17_regex/_02_匹配163邮箱地址.py" />
+        <option value="$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py" />
+        <option value="$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py" />
+        <option value="$PROJECT_DIR$/18_web_server/index.html" />
+        <option value="$PROJECT_DIR$/18_web_server/_03_返回inde.html页面.py" />
+        <option value="$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py" />
       </list>
     </option>
   </component>
@@ -359,9 +310,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -381,11 +331,12 @@
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="16_multitask" type="462c0819:PsiDirectoryNode" />
+              <item name="10_expection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="18_web_server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,6 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -426,8 +378,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._32_gevent_img_downloader">
-    <configuration name="_28_使用yield完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python._04_根据用户的需求返回相应的页面">
+    <configuration name="_01_实现简单的http服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -435,12 +387,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_multitask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_multitask/_28_使用yield完成多任务.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,7 +401,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_29_使用greenlet完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_02_设置套接字选项" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -457,12 +409,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_multitask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_multitask/_29_使用greenlet完成多任务.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -471,7 +423,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_30_使用gevent实现多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_02_匹配163邮箱地址" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -479,12 +431,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_multitask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_regex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_multitask/_30_使用gevent实现多任务.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_regex/_02_匹配163邮箱地址.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -493,7 +445,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_31_gevent打补丁" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_03_返回inde.html页面" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,12 +453,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_multitask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_multitask/_31_gevent打补丁.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_03_返回inde.html页面.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -515,7 +467,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_32_gevent_img_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_04_根据用户的需求返回相应的页面" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -523,12 +475,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_multitask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,19 +490,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python._28_使用yield完成多任务" />
-      <item itemvalue="Python._29_使用greenlet完成多任务" />
-      <item itemvalue="Python._30_使用gevent实现多任务" />
-      <item itemvalue="Python._31_gevent打补丁" />
-      <item itemvalue="Python._32_gevent_img_downloader" />
+      <item itemvalue="Python._02_匹配163邮箱地址" />
+      <item itemvalue="Python._01_实现简单的http服务器" />
+      <item itemvalue="Python._02_设置套接字选项" />
+      <item itemvalue="Python._03_返回inde.html页面" />
+      <item itemvalue="Python._04_根据用户的需求返回相应的页面" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._32_gevent_img_downloader" />
-        <item itemvalue="Python._31_gevent打补丁" />
-        <item itemvalue="Python._30_使用gevent实现多任务" />
-        <item itemvalue="Python._29_使用greenlet完成多任务" />
-        <item itemvalue="Python._28_使用yield完成多任务" />
+        <item itemvalue="Python._04_根据用户的需求返回相应的页面" />
+        <item itemvalue="Python._03_返回inde.html页面" />
+        <item itemvalue="Python._02_设置套接字选项" />
+        <item itemvalue="Python._01_实现简单的http服务器" />
+        <item itemvalue="Python._02_匹配163邮箱地址" />
       </list>
     </recent_temporary>
   </component>
@@ -580,12 +532,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38163266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38163266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,89 +562,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15_socket/_02_发送任意数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15_socket/[新]1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15_socket/_16_案例:文件下载-client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1549089663750" expanded="true" signature="27:493" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15_socket/_01_socket的基本使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15_socket/_04_带有退出功能的循环发送.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7800">
-          <caret line="4163" column="8" selection-start-line="4163" selection-start-column="8" selection-end-line="4163" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_01_没有多任务的程序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1549090640466" expanded="true" signature="25:196" ph="..." />
-            <marker date="1549090640466" expanded="true" signature="207:233" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_03_查看线程数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_02_多任务线程demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1549090700587" expanded="true" signature="224:336" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_05_验证创建线程以及运行.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_05_验证创建线程以及运行.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_04_循环查看当前运行的线程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,48 +574,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_06_线程共享全局变量.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_06_线程共享全局变量.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_06_函数里面修改全局变量.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <marker date="1549093101209" expanded="true" signature="39:44" ph="..." />
-            <marker date="1549093101209" expanded="true" signature="84:107" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_09_共享全局变量的问题.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_08_多线程共享全局变量2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_09_共享全局变量的问题.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_07_线程共享全局变量.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <marker date="1549093320460" expanded="true" signature="152:204" ph="..." />
-            <marker date="1549093320460" expanded="true" signature="215:421" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,22 +604,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_12_案例:多任务udpliaotianq.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_12_案例:多任务udpliaotianq.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_11_使用互斥锁解决资源竞争2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="26" selection-start-line="7" selection-end-line="8" />
-          <folding>
-            <marker date="1549084825573" expanded="true" signature="251:367" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,11 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1549096582282" expanded="true" signature="193:326" ph="..." />
-            <marker date="1549096582282" expanded="true" signature="337:704" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,12 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <marker date="1549097675013" expanded="true" signature="146:214" ph="..." />
-            <marker date="1549097675013" expanded="true" signature="225:230" ph="..." />
-            <marker date="1549097675013" expanded="true" signature="225:470" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <marker date="1549099294787" expanded="true" signature="183:379" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,43 +654,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1549161996370" expanded="true" signature="75:80" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_16_多任务文件夹copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="true" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_16_多任务文件夹copy.py" />
+    <entry file="file://$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy.py" />
+    <entry file="file://$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v1.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy-v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,29 +671,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09_oop_feature/_09_多继承.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1548991946530" expanded="true" signature="8:13" ph="..." />
-            <marker date="1548991946530" expanded="true" signature="126:164" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/10_expection/_06_抛出异常.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1549001195195" expanded="true" signature="21:26" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,10 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1549170480165" expanded="true" signature="334:363" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,11 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1549170483646" expanded="true" signature="104:109" ph="..." />
-            <marker date="1549170483646" expanded="true" signature="301:384" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,15 +737,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <marker date="1549172880592" expanded="true" signature="47:52" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_25_生成器的研究.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="437">
           <caret line="23" column="18" selection-end-line="34" />
         </state>
       </provider>
@@ -1001,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_28_使用yield完成多任务.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="323">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
             <marker date="1549174859816" expanded="true" signature="27:32" ph="..." />
@@ -1013,10 +775,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_29_使用greenlet完成多任务.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="171">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
             <marker date="1549175268801" expanded="true" signature="80:85" ph="..." />
             <marker date="1549175268801" expanded="true" signature="181:186" ph="..." />
           </folding>
@@ -1025,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_30_使用gevent实现多任务.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="323">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
             <marker date="1549175889583" expanded="true" signature="60:65" ph="..." />
@@ -1036,25 +797,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_31_gevent打补丁.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="494">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1549193845403" expanded="true" signature="98:237" ph="..." />
+            <marker date="1549193845403" expanded="true" signature="248:521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_32_gevent_img_downloader.py">
+    <entry file="file://$PROJECT_DIR$/16_multitask/_08_多线程共享全局变量2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_regex/_01_判断变量名是否符合要求.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1549177198690" expanded="true" signature="98:237" ph="..." />
-            <marker date="1549177198690" expanded="true" signature="248:521" ph="..." />
+            <marker date="1550460431534" expanded="true" signature="23:467" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_regex/_02_匹配163邮箱地址.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <marker date="1550462865782" expanded="true" signature="23:214" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1550468581703" expanded="true" signature="47:260" ph="..." />
+            <marker date="1550468581703" expanded="true" signature="271:563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="22" lean-forward="true" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_03_返回inde.html页面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_expection/_04_完整的异常语法.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
