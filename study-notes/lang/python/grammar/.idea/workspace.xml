@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24ee8ec-d50b-4be1-bede-4a533107ff61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/18_web_server/_05_使用多进程完成http服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_web_server/_06_使用多线程来完成http服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_web_server/_07_使用gevent来实现http服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_web_server/_08_单进程-单线程-非堵塞.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_web_server/_10_epoll实现http.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../linux/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../linux/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +138,7 @@
           <entry key="html" value="1" />
           <entry key="jpg" value="5" />
           <entry key="png" value="1" />
-          <entry key="py" value="315" />
+          <entry key="py" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -151,7 +146,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="316" />
+          <entry key="Python" value="318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -159,69 +154,20 @@
           <entry key="README" value="42" />
           <entry key="README[复件]" value="2" />
           <entry key="html" value="42" />
-          <entry key="py" value="27610" />
+          <entry key="py" value="27637" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="42" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="27610" />
+          <entry key="Python" value="27637" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="21" column="39" selection-end-line="67" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/18_web_server/_10_epoll实现http.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18_web_server/_08_单进程-单线程-非堵塞.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -242,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/16_multitask/_03_查看线程数.py" />
         <option value="$PROJECT_DIR$/16_multitask/_03_让某些线程先执行.py" />
         <option value="$PROJECT_DIR$/16_multitask/_04_循环查看当前运行的线程.py" />
         <option value="$PROJECT_DIR$/16_multitask/_05_验证创建线程以及运行.py" />
@@ -293,6 +238,7 @@
         <option value="$PROJECT_DIR$/18_web_server/_08_单进程-单线程-非堵塞.py" />
         <option value="$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py" />
         <option value="$PROJECT_DIR$/18_web_server/_10_epoll实现http.py" />
+        <option value="$PROJECT_DIR$/19_advance2/_01_单线程死循环.py" />
       </list>
     </option>
   </component>
@@ -320,16 +266,6 @@
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="grammar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="10_expection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="18_web_server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -523,14 +459,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18367347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18367347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,20 +490,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/16_multitask/_09_共享全局变量的问题-资源竞争.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_10_使用互斥锁解决资源竞争.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_12_案例:多任务udpliaotianq.py" />
     <entry file="file://$PROJECT_DIR$/16_multitask/_11_使用互斥锁解决资源竞争2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="21" column="39" selection-end-line="67" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/select.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4643" />
@@ -914,13 +825,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/18_web_server/_10_epoll实现http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        <state relative-caret-position="475">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_advance2/_01_单线程死循环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_oop_feature/_19_单例.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

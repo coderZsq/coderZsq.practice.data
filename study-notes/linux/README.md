@@ -616,3 +616,14 @@ $ tar -jxvf py.tar.bz2 -C bz2/
 $ sudo ifconfig en0 down
 $ sudo ifconfig en0 up
 ```
+
+#### arp
+
+```
+$ arp -a
+
+? (172.16.22.1) at 9c:37:f4:83:d5:d6 on en0 ifscope [ethernet]
+? (172.16.23.120) at 68:db:ca:e4:7e:1d on en0 ifscope [ethernet]
+? (172.16.23.123) at 9c:e3:3f:9a:64:28 on en0 ifscope [ethernet]
+? (172.16.23.126) at 34:23:87:0:2f:25 on en0 ifscope [ethernet]
+```
