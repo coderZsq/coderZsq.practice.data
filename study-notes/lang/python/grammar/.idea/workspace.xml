@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24ee8ec-d50b-4be1-bede-4a533107ff61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/19_mysql/_01_查询数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_mysql/_02_用面向对象的思想来实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_mysql/_03_添加一个商品分类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_mysql/_04_sql注入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_mysql/_05_防止sql注入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开/mini_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +25,16 @@
     <SUITE FILE_PATH="coverage/grammar$05_.coverage" NAME="05_偶数求和 Coverage Results" MODIFIED="1548839631484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_09__.coverage" NAME="_09_共享全局变量的问题-资源竞争 Coverage Results" MODIFIED="1549094254388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_06_http.coverage" NAME="_06_使用多线程来完成http服务器 Coverage Results" MODIFIED="1550476529666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
+    <SUITE FILE_PATH="coverage/grammar$web_server__2_.coverage" NAME="web_server (2) Coverage Results" MODIFIED="1550719687305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开" />
     <SUITE FILE_PATH="coverage/grammar$_01_http.coverage" NAME="_01_实现简单的http服务器 Coverage Results" MODIFIED="1550468581717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
+    <SUITE FILE_PATH="coverage/grammar$mini_frame__1_.coverage" NAME="mini_frame (1) Coverage Results" MODIFIED="1550727712993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic" />
     <SUITE FILE_PATH="coverage/grammar$plane_main.coverage" NAME="plane_main Coverage Results" MODIFIED="1549074687028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_game" />
     <SUITE FILE_PATH="coverage/grammar$_04_import.coverage" NAME="_04_import同时指定别名 Coverage Results" MODIFIED="1549001955920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_module" />
     <SUITE FILE_PATH="coverage/grammar$1.coverage" NAME="第1个函数 Coverage Results" MODIFIED="1548901782422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_func" />
     <SUITE FILE_PATH="coverage/grammar$_09_.coverage" NAME="_09_使用同一个套接字进行收发数据 Coverage Results" MODIFIED="1549084021953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_socket" />
     <SUITE FILE_PATH="coverage/grammar$_15_.coverage" NAME="_15_进程池 Coverage Results" MODIFIED="1549161996384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_02_.coverage" NAME="_02_设置套接字选项 Coverage Results" MODIFIED="1550469503833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
+    <SUITE FILE_PATH="coverage/grammar$web_server__1_.coverage" NAME="web_server (1) Coverage Results" MODIFIED="1550727753867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据" />
     <SUITE FILE_PATH="coverage/grammar$_22__5.coverage" NAME="_22_自己实现一个可以迭代的对象-5 Coverage Results" MODIFIED="1549170559624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_12__02_.coverage" NAME="_12_摆放家具_02_房子类 Coverage Results" MODIFIED="1548988193431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_21__4.coverage" NAME="_21_自己实现一个可以迭代的对象-4 Coverage Results" MODIFIED="1549170407963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
@@ -68,12 +67,14 @@
     <SUITE FILE_PATH="coverage/grammar$setup.coverage" NAME="setup Coverage Results" MODIFIED="1549004337194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_module_release" />
     <SUITE FILE_PATH="coverage/grammar$_13__03_.coverage" NAME="_13_摆放家具_03_添加家具 Coverage Results" MODIFIED="1548988431298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_31_gevent.coverage" NAME="_31_gevent打补丁 Coverage Results" MODIFIED="1549176140392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$web_server__3_.coverage" NAME="web_server (3) Coverage Results" MODIFIED="1550720233307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/04-将web服务器和逻辑处理的代码分开-升级版" />
     <SUITE FILE_PATH="coverage/grammar$09_print.coverage" NAME="09_print函数的结尾 Coverage Results" MODIFIED="1548840614358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$06_.coverage" NAME="06_女友的节日 Coverage Results" MODIFIED="1548836453344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
     <SUITE FILE_PATH="coverage/grammar$_04_.coverage" NAME="_04_根据用户的需求返回相应的页面 Coverage Results" MODIFIED="1550474190763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
     <SUITE FILE_PATH="coverage/grammar$04_qq.coverage" NAME="04_qq号码 Coverage Results" MODIFIED="1548830828618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/grammar$03_.coverage" NAME="03_程序计数 Coverage Results" MODIFIED="1548839003261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_17_.coverage" NAME="_17_方法综合案例 Coverage Results" MODIFIED="1548998694023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
+    <SUITE FILE_PATH="coverage/grammar$web_server.coverage" NAME="web_server Coverage Results" MODIFIED="1550727707262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/07-实现模板文件" />
     <SUITE FILE_PATH="coverage/grammar$_02_demo.coverage" NAME="_02_多任务线程demo Coverage Results" MODIFIED="1549090932279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$09_.coverage" NAME="09_格式化输出 Coverage Results" MODIFIED="1548833666648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/grammar$_07_python2.coverage" NAME="_07_python2字符串 Coverage Results" MODIFIED="1549007262095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
@@ -97,14 +98,16 @@
     <SUITE FILE_PATH="coverage/grammar$_05_http.coverage" NAME="_05_使用多进程完成http服务器 Coverage Results" MODIFIED="1550475363869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
     <SUITE FILE_PATH="coverage/grammar$_16__03_.coverage" NAME="_16_士兵突击_03_士兵开火 Coverage Results" MODIFIED="1548989281858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_oop" />
     <SUITE FILE_PATH="coverage/grammar$_08_eval.coverage" NAME="_08_eval计算器 Coverage Results" MODIFIED="1549007380053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_file" />
-    <SUITE FILE_PATH="coverage/grammar$_12_.coverage" NAME="_12_类属性 Coverage Results" MODIFIED="1548997516712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_oop_feature" />
+    <SUITE FILE_PATH="coverage/grammar$_12_.coverage" NAME="_12_多个装饰器对同一个函数进行装饰 Coverage Results" MODIFIED="1550741158952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/11-装饰器" />
     <SUITE FILE_PATH="coverage/grammar$01_hello.coverage" NAME="01_hello Coverage Results" MODIFIED="1548834361499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/grammar$_06_.coverage" NAME="_06_函数里面修改全局变量 Coverage Results" MODIFIED="1549093083295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$mini_frame.coverage" NAME="mini_frame Coverage Results" MODIFIED="1550725020463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议" />
     <SUITE FILE_PATH="coverage/grammar$_18__1.coverage" NAME="_18_自己实现一个可以迭代的对象-1 Coverage Results" MODIFIED="1549169800151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$_03_inde_html.coverage" NAME="_03_返回inde.html页面 Coverage Results" MODIFIED="1550472263909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18_web_server" />
     <SUITE FILE_PATH="coverage/grammar$_12_udp.coverage" NAME="_12_多任务udp聊天器 Coverage Results" MODIFIED="1549096591948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
     <SUITE FILE_PATH="coverage/grammar$04_.coverage" NAME="04_累加求和 Coverage Results" MODIFIED="1548839408050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/grammar$_03_.coverage" NAME="_03_查看线程数 Coverage Results" MODIFIED="1549091919310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
+    <SUITE FILE_PATH="coverage/grammar$web_server__4_.coverage" NAME="web_server (4) Coverage Results" MODIFIED="1550725313552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议" />
     <SUITE FILE_PATH="coverage/grammar$_12___.coverage" NAME="_12_加等于(面试题) Coverage Results" MODIFIED="1548923390958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_advance" />
     <SUITE FILE_PATH="coverage/grammar$07_.coverage" NAME="07_火车站安检 Coverage Results" MODIFIED="1548836943866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/branch" />
     <SUITE FILE_PATH="coverage/grammar$_26_.coverage" NAME="_26_通过异常判断生成器已经结束 Coverage Results" MODIFIED="1549173514996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_multitask" />
@@ -125,12 +128,13 @@
     <session id="756015896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -140,33 +144,33 @@
           <entry key="README" value="3" />
           <entry key="README[复件]" value="2" />
           <entry key="_04_第1个函数改造" value="1" />
-          <entry key="html" value="1" />
+          <entry key="html" value="6" />
           <entry key="jpg" value="5" />
           <entry key="png" value="1" />
-          <entry key="py" value="324" />
+          <entry key="py" value="350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="6" />
           <entry key="Image" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="325" />
+          <entry key="Python" value="351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="42" />
           <entry key="README[复件]" value="2" />
-          <entry key="html" value="42" />
-          <entry key="py" value="28767" />
+          <entry key="html" value="49" />
+          <entry key="py" value="30027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="42" />
+          <entry key="HTML" value="49" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="28767" />
+          <entry key="Python" value="30027" />
         </counts>
       </usages-collector>
     </session>
@@ -174,62 +178,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19_mysql/_01_查询数据.py">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/mini_frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="247">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <marker date="1550650457040" expanded="true" signature="47:1236" ph="..." />
-                <marker date="1550650457040" expanded="true" signature="266:801" ph="..." />
-                <marker date="1550650457040" expanded="true" signature="1247:1277" ph="..." />
+                <marker date="1550725855115" expanded="true" signature="45:68" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19_mysql/_02_用面向对象的思想来实现.py">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/web_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="494">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
-                <marker date="1550651018545" expanded="true" signature="348:455" ph="..." />
-                <marker date="1550651018545" expanded="true" signature="678:761" ph="..." />
-                <marker date="1550651018545" expanded="true" signature="796:957" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19_mysql/_03_添加一个商品分类.py">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/mini_frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="24" lean-forward="true" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="57">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding>
-                <marker date="1550651497408" expanded="true" signature="824:989" ph="..." />
+                <marker date="1550726775759" expanded="true" signature="12:107" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19_mysql/_04_sql注入.py">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding>
-                <marker date="1550652068743" expanded="true" signature="995:1144" ph="..." />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic/mini_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/09-运行web服务器时指定端口以及框架/web_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/19_mysql/_05_防止sql注入.py">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/11-装饰器/_12_多个装饰器对同一个函数进行装饰.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/web_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,7 +291,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>self.speed</find>
+      <find>tcp_server_socket</find>
     </findStrings>
+    <replaceStrings>
+      <replace>self.tcp_server_socket</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -255,24 +303,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/16_multitask/_07_线程共享全局变量.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_08_多线程共享全局变量2.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_09_共享全局变量的问题.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_09_共享全局变量的问题-资源竞争.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_10_使用互斥锁解决资源竞争.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_11_使用互斥锁解决资源竞争2.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_12_案例:多任务udpliaotianq.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_12_多任务udp聊天器.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_13_使用进程实现多任务.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_14_多进程之间通过Queue实现数据共享.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_15_进程池.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_16_多任务文件夹copy.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v1.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v2-显示进度.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_21_自己实现一个可以迭代的对象-4.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_20_自己实现一个可以迭代的对象-3.py" />
-        <option value="$PROJECT_DIR$/16_multitask/_19_自己实现一个可以迭代的对象-2.py" />
         <option value="$PROJECT_DIR$/16_multitask/_18_自己实现一个可以迭代的对象-1.py" />
         <option value="$PROJECT_DIR$/16_multitask/_22_自己实现一个可以迭代的对象-5.py" />
         <option value="$PROJECT_DIR$/16_multitask/_23_fibonacci-1.py" />
@@ -299,13 +329,31 @@
         <option value="$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py" />
         <option value="$PROJECT_DIR$/18_web_server/_10_epoll实现http.py" />
         <option value="$PROJECT_DIR$/19_advance2/_01_单线程死循环.py" />
-        <option value="$PROJECT_DIR$/18_web_server/_06_使用多线程来完成http服务器.py" />
         <option value="$PROJECT_DIR$/19_mysql/_01_查询数据.py" />
         <option value="$PROJECT_DIR$/19_mysql/_02_用面向对象的思想来实现.py" />
         <option value="$PROJECT_DIR$/19_mysql/_03_添加一个商品分类.py" />
         <option value="$PROJECT_DIR$/19_mysql/_03_sql注入.py" />
         <option value="$PROJECT_DIR$/19_mysql/_04_sql注入.py" />
         <option value="$PROJECT_DIR$/19_mysql/_05_防止sql注入.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/01_多进程-web服务器/index.html" />
+        <option value="$PROJECT_DIR$/18_web_server/_06_使用多线程来完成http服务器.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/01_多进程-web服务器/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/02-web服务器里集成了解析动态请求的功能/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/04-将web服务器和逻辑处理的代码分开-升级版/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/04-将web服务器和逻辑处理的代码分开-升级版/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/__init__.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/07-实现模板文件/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/templates/index.html" />
+        <option value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/09-运行web服务器时指定端口以及框架/web_server.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/11-装饰器/_12_多个装饰器对同一个函数进行装饰.py" />
       </list>
     </option>
   </component>
@@ -337,7 +385,23 @@
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="19_mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
+              <item name="09-运行web服务器时指定端口以及框架" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
+              <item name="11-装饰器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -379,8 +443,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._10_epoll实现http">
-    <configuration name="_04_根据用户的需求返回相应的页面" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python._12_多个装饰器对同一个函数进行装饰">
+    <configuration name="_12_多个装饰器对同一个函数进行装饰" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,12 +452,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_mini_web/11-装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_mini_web/11-装饰器/_12_多个装饰器对同一个函数进行装饰.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,7 +466,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_05_使用多进程完成http服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mini_frame (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,12 +474,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_05_使用多进程完成http服务器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic/mini_frame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -424,7 +488,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_06_使用多线程来完成http服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="web_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -432,12 +496,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_06_使用多线程来完成http服务器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,7 +510,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_09_单进程-单线程-非阻塞-长链接" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="web_server (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,12 +518,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/web_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -468,7 +532,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_10_epoll实现http" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="web_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,12 +540,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_web_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_mini_web/07-实现模板文件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_web_server/_10_epoll实现http.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_mini_web/07-实现模板文件/web_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -491,19 +555,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python._04_根据用户的需求返回相应的页面" />
-      <item itemvalue="Python._05_使用多进程完成http服务器" />
-      <item itemvalue="Python._06_使用多线程来完成http服务器" />
-      <item itemvalue="Python._09_单进程-单线程-非阻塞-长链接" />
-      <item itemvalue="Python._10_epoll实现http" />
+      <item itemvalue="Python.web_server (4)" />
+      <item itemvalue="Python.web_server" />
+      <item itemvalue="Python.mini_frame (1)" />
+      <item itemvalue="Python.web_server (1)" />
+      <item itemvalue="Python._12_多个装饰器对同一个函数进行装饰" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._10_epoll实现http" />
-        <item itemvalue="Python._09_单进程-单线程-非阻塞-长链接" />
-        <item itemvalue="Python._06_使用多线程来完成http服务器" />
-        <item itemvalue="Python._05_使用多进程完成http服务器" />
-        <item itemvalue="Python._04_根据用户的需求返回相应的页面" />
+        <item itemvalue="Python._12_多个装饰器对同一个函数进行装饰" />
+        <item itemvalue="Python.web_server (1)" />
+        <item itemvalue="Python.mini_frame (1)" />
+        <item itemvalue="Python.web_server" />
+        <item itemvalue="Python.web_server (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -533,12 +597,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1959707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18367347" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2642857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,144 +627,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/16_multitask/_14_多进程之间通过Queue实现数据共享.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_15_进程池.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_16_多任务文件夹copy.py" />
-    <entry file="file://$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy.py" />
-    <entry file="file://$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v1.py" />
-    <entry file="file://$PROJECT_DIR$/16_multitask/_16_案例:多任务文件夹copy-v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_17_案例:多任务文件夹copy-v2-显示进度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_oop_feature/_09_多继承.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_expection/_06_抛出异常.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_21_自己实现一个可以迭代的对象-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_20_自己实现一个可以迭代的对象-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_19_自己实现一个可以迭代的对象-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_18_自己实现一个可以迭代的对象-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_22_自己实现一个可以迭代的对象-5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_23_fibonacci-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_23_fibonacci-2-迭代器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_24_使用生成器完成feibonacii数列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_25_生成器的研究.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="18" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_26_通过异常判断生成器已经结束.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_27_通过send来启动生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_multitask/_28_使用yield完成多任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <marker date="1549174859816" expanded="true" signature="27:32" ph="..." />
-            <marker date="1549174859816" expanded="true" signature="122:127" ph="..." />
-            <marker date="1549174859816" expanded="true" signature="215:304" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16_multitask/_29_使用greenlet完成多任务.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1549175268801" expanded="true" signature="80:85" ph="..." />
-            <marker date="1549175268801" expanded="true" signature="181:186" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,10 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#22#35#0" expanded="true" />
-            <marker date="1549175889583" expanded="true" signature="60:65" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,9 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#22#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,11 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1549193845403" expanded="true" signature="98:237" ph="..." />
-            <marker date="1549193845403" expanded="true" signature="248:521" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,9 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <marker date="1550460431534" expanded="true" signature="23:467" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <marker date="1550462865782" expanded="true" signature="23:214" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,17 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1550468581703" expanded="true" signature="47:260" ph="..." />
-            <marker date="1550468581703" expanded="true" signature="271:563" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" lean-forward="true" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -798,13 +699,79 @@
     <entry file="file://$PROJECT_DIR$/10_expection/_04_完整的异常语法.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_05_使用多进程完成http服务器.py">
+    <entry file="file://$PROJECT_DIR$/18_web_server/_07_使用gevent来实现http服务器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="382">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_08_单进程-单线程-非堵塞.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/select.py" />
+    <entry file="file://$PROJECT_DIR$/18_web_server/_10_epoll实现http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_advance2/_01_单线程死循环.py" />
+    <entry file="file://$PROJECT_DIR$/09_oop_feature/_19_单例.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_mysql/_03_sql注入.py" />
+    <entry file="file://$PROJECT_DIR$/19_mysql/_01_查询数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_mysql/_02_用面向对象的思想来实现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_mysql/_03_添加一个商品分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-end-line="67" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_mysql/_04_sql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_mysql/_05_防止sql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -815,132 +782,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_07_使用gevent来实现http服务器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_08_单进程-单线程-非堵塞.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_04_根据用户的需求返回相应的页面.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_10_epoll实现http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19_advance2/_01_单线程死循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_oop_feature/_19_单例.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/18_web_server/_06_使用多线程来完成http服务器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/01_多进程-web服务器/index.html" />
+    <entry file="file://$PROJECT_DIR$/20_mini_web/01_多进程-web服务器/web_server.py" />
+    <entry file="file://$PROJECT_DIR$/20_mini_web/01_多进程-面向对象-web服务器/web_server.py" />
+    <entry file="file://$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18_web_server/_05_使用多进程完成http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/02-web服务器里集成了解析动态请求的功能/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/03-将web服务器和逻辑处理的代码分开/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/04-将web服务器和逻辑处理的代码分开-升级版/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/04-将web服务器和逻辑处理的代码分开-升级版/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-656">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/05-让web服务器支持WSGI协议/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1550725399853" expanded="true" signature="1923:2043" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <marker date="1550725855115" expanded="true" signature="45:68" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_01_查询数据.py">
+    <entry file="file://$PROJECT_DIR$/20_mini_web/07-实现模板文件/dynamic/mini_frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <marker date="1550650457040" expanded="true" signature="47:1236" ph="..." />
-            <marker date="1550650457040" expanded="true" signature="266:801" ph="..." />
-            <marker date="1550650457040" expanded="true" signature="1247:1277" ph="..." />
+            <marker date="1550726775759" expanded="true" signature="12:107" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_02_用面向对象的思想来实现.py">
+    <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/dynamic/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1550651018545" expanded="true" signature="348:455" ph="..." />
-            <marker date="1550651018545" expanded="true" signature="678:761" ph="..." />
-            <marker date="1550651018545" expanded="true" signature="796:957" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_03_sql注入.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_03_添加一个商品分类.py">
+    <entry file="file://$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/web_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="24" lean-forward="true" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="779">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
-            <marker date="1550651497408" expanded="true" signature="824:989" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_04_sql注入.py">
+    <entry file="file://$PROJECT_DIR$/20_mini_web/09-运行web服务器时指定端口以及框架/web_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <marker date="1550652068743" expanded="true" signature="995:1144" ph="..." />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_mysql/_05_防止sql注入.py">
+    <entry file="file://$PROJECT_DIR$/20_mini_web/11-装饰器/_12_多个装饰器对同一个函数进行装饰.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
