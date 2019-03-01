@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24ee8ec-d50b-4be1-bede-4a533107ff61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20_mini_web/20-修改股票的备注信息/templates/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,7 @@
     <session id="756015896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
@@ -147,7 +146,7 @@
           <entry key="jpg" value="5" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="366" />
+          <entry key="py" value="369" />
           <entry key="sh" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -158,7 +157,7 @@
           <entry key="Image" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="367" />
+          <entry key="Python" value="370" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -166,42 +165,20 @@
           <entry key="README" value="42" />
           <entry key="README[复件]" value="2" />
           <entry key="html" value="63" />
-          <entry key="py" value="31162" />
+          <entry key="py" value="31165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="63" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="31162" />
+          <entry key="Python" value="31165" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20_mini_web/22-添加log日志功能/dynamic/mini_frame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20_mini_web/22-添加log日志功能/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -227,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/17_regex/_01_判断变量名是否符合要求.py" />
         <option value="$PROJECT_DIR$/17_regex/_02_匹配163邮箱地址.py" />
         <option value="$PROJECT_DIR$/18_web_server/_01_实现简单的http服务器.py" />
         <option value="$PROJECT_DIR$/18_web_server/_02_设置套接字选项.py" />
@@ -278,6 +254,7 @@
         <option value="$PROJECT_DIR$/20_mini_web/20-修改股票的备注信息/dynamic/mini_frame.py" />
         <option value="$PROJECT_DIR$/20_mini_web/21-url编解码/dynamic/mini_frame.py" />
         <option value="$PROJECT_DIR$/20_mini_web/22-添加log日志功能/dynamic/mini_frame.py" />
+        <option value="$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py" />
       </list>
     </option>
   </component>
@@ -306,31 +283,6 @@
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="grammar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
-              <item name="22-添加log日志功能" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
-              <item name="22-添加log日志功能" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="20_mini_web" type="462c0819:PsiDirectoryNode" />
-              <item name="22-添加log日志功能" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grammar" type="b2602c69:ProjectViewProjectNode" />
@@ -527,14 +479,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.094897956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.094897956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,14 +510,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/18_web_server/_09_单进程-单线程-非阻塞-长链接.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19_advance2/_01_单线程死循环.py" />
     <entry file="file://$PROJECT_DIR$/09_oop_feature/_19_单例.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -736,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20_mini_web/06-通过传递字典实现浏览器请求的资源不一样响应的不一样/web_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -896,12 +829,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20_mini_web/22-添加log日志功能/dynamic/mini_frame.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+        <state relative-caret-position="18534">
+          <caret line="4619" column="16" selection-start-line="4619" selection-start-column="16" selection-end-line="4619" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/08-替换模板中的数据/web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_multitask/_22_自己实现一个可以迭代的对象-5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,6 +859,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_mini_web/22-添加log日志功能/dynamic/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

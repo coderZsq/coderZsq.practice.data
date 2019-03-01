@@ -627,3 +627,13 @@ $ arp -a
 ? (172.16.23.123) at 9c:e3:3f:9a:64:28 on en0 ifscope [ethernet]
 ? (172.16.23.126) at 34:23:87:0:2f:25 on en0 ifscope [ethernet]
 ```
+
+#### vps
+
+```
+$ sudo -i
+$ wget -N –no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+$ bash bbr.sh start
+$ wget –no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+$ ./shadowsocksR.sh
+```

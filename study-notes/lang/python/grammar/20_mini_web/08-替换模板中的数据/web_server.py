@@ -11,7 +11,7 @@ class WSGIServer(object):
         self.tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.tcp_server_socket.bind(("", 7890))
         self.tcp_server_socket.listen(128)
-
+    @staticmethod
     def service_client(self, new_socket):
         request = new_socket.recv(1024).decode("utf-8")
         # print(request)
