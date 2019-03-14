@@ -1,0 +1,3 @@
+2019-02-22 14:48:04,543 - mini_frame.py[line:101] - INFO: 访问的是，/index.html
+2019-02-22 14:50:03,625 - mini_frame.py[line:101] - INFO: 访问的是，/w2d.html
+2019-02-22 14:50:03,627 - mini_frame.py[line:117] - WARNING: 没有对应的函数....
