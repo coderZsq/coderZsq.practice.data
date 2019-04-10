@@ -11,6 +11,7 @@ django-tinymce = "*"
 pymysql = "*"
 pillow = "*"
 itsdangerous = "*"
+celery = "*"
 
 [requires]
 python_version = "3.6"

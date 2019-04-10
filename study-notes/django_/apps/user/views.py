@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
-from django.core.mail import send_mail
 from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
 from apps.user.models import User
+from celery_tasks.tasks import send_register_active_email
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from itsdangerous import SignatureExpired
 import re
@@ -42,12 +42,7 @@ class RegisterView(View):
         info = {'confirm': user.id}
         token = serializer.dumps(info)
         token = token.decode('utf8')
-        subject = '邮件主题'
-        message = '邮件正文'
-        sender = settings.EMAIL_FROM
-        receiver = [email]
-        html_message = '%s, 点击链接 -> <a herf="http://localhost:8000/user/active/%s">http://localhost:8000/user/active/%s</a>' % (username, token, token)
-        send_mail(subject, message, sender, receiver, html_message=html_message)
+        send_register_active_email.delay(email, username, token)
         return redirect(reverse('goods:index'))
 
 
