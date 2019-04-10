@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
-from .models import User
+from apps.user.models import User
 import re
 
 # Create your views here.
