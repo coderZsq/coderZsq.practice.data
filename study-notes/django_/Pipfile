@@ -13,6 +13,7 @@ pillow = "*"
 itsdangerous = "*"
 celery = "*"
 django-redis = "==4.4.4"
+redis = "==2.10.0"
 
 [requires]
 python_version = "3.6"

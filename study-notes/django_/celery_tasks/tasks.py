@@ -7,7 +7,7 @@ from django.conf import settings
 # os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_.settings")
 # django.setup()
 
-# app = Celery('celery_tasks.tasks', broker='redis://localhost:6379/')
+# app = Celery('celery_tasks.tasks', broker='redis://127.0.0.1:6379/1')
 
 
 # @app.task
