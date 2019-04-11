@@ -5,10 +5,12 @@ from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
 from apps.user.models import User, Address
+from apps.goods.models import GoodsSKU
 from celery_tasks.tasks import send_register_active_email
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from itsdangerous import SignatureExpired
 from utils.mixin import LoginRequiredMixin
+from django_redis import get_redis_connection
 import re
 
 # Create your views here.
@@ -108,7 +110,19 @@ class LogoutView(View):
 class UserInfoView(LoginRequiredMixin, View):
     @staticmethod
     def get(request):
-        return render(request, 'user_center_info.html', {'page': 'user'})
+        user = request.user
+        address = Address.objects.get_default_address(user)
+        con = get_redis_connection('default')
+        history_key = 'history_%d' % user.id
+        sku_ids = con.lrange(history_key, 0, 4)
+        goods_li = []
+        for id in sku_ids:
+            goods = GoodsSKU.objects.get(id=id)
+            goods_li.append(goods)
+        context = {'page': 'user',
+                   'address': address,
+                   'goods_li': goods_li}
+        return render(request, 'user_center_info.html', context)
 
 
 class UserOrderView(LoginRequiredMixin, View):
@@ -121,10 +135,7 @@ class AddressView(LoginRequiredMixin, View):
     @staticmethod
     def get(request):
         user = request.user
-        try:
-            address = Address.objects.get(user=user, is_default=True)
-        except Address.DoesNotExist:
-            address = None
+        address = Address.objects.get_default_address(user)
         return render(request, 'user_center_site.html', {'page': 'address', 'address': address})
 
     @staticmethod
@@ -138,10 +149,7 @@ class AddressView(LoginRequiredMixin, View):
         if not re.match(r'^1[3|4|5|7|8][0-9]{9}$', phone):
             return render(request, 'user_center_site.html', {'errmsg': '手机格式不正确'})
         user = request.user
-        try:
-            address = Address.objects.get(user=user, is_default=True)
-        except Address.DoesNotExist:
-            address = None
+        address = Address.objects.get_default_address(user)
         if address:
             is_default = False
         else:
