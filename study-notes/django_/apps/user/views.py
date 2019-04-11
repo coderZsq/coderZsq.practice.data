@@ -65,7 +65,13 @@ class ActiveView(View):
 class LoginView(View):
     @staticmethod
     def get(request):
-        return render(request, 'login.html')
+        if 'username' in request.COOKIES:
+            username = request.COOKIES.get('username')
+            checked = 'checked'
+        else:
+            username = ''
+            checked = ''
+        return render(request, 'login.html', {'username': username, 'checked': checked})
 
     @staticmethod
     def post(request):
@@ -77,7 +83,13 @@ class LoginView(View):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                return redirect(reverse('goods:index'))
+                response = redirect(reverse('goods:index'))
+                remember = request.POST.get('remember')
+                if remember == 'on':
+                    response.set_cookie('username', username, max_age=7*24*3600)
+                else:
+                    response.delete_cookie('username')
+                return response
             else:
                 return render(request, 'login.html', {'errmsg': '账户未激活'})
         else:
