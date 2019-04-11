@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
+from django.contrib.auth import authenticate, login
 from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
@@ -34,7 +35,7 @@ class RegisterView(View):
         except User.DoesNotExist:
             user = None
         if user:
-            return render(request, 'register.html', {'errmsg', '用户名已存在'})
+            return render(request, 'register.html', {'errmsg': '用户名已存在'})
         user = User.objects.create_user(username, email, password)
         user.is_active = 0
         user.save()
@@ -42,7 +43,7 @@ class RegisterView(View):
         info = {'confirm': user.id}
         token = serializer.dumps(info)
         token = token.decode('utf8')
-        send_register_active_email.delay(email, username, token)
+        send_register_active_email(email, username, token)
         return redirect(reverse('goods:index'))
 
 
@@ -65,3 +66,20 @@ class LoginView(View):
     @staticmethod
     def get(request):
         return render(request, 'login.html')
+
+    @staticmethod
+    def post(request):
+        username = request.POST.get('username')
+        password = request.POST.get('pwd')
+        if not all([username, password]):
+            return render(request, 'login.html', {'errmsg': '数据不完整'})
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return redirect(reverse('goods:index'))
+            else:
+                return render(request, 'login.html', {'errmsg': '账户未激活'})
+        else:
+            return render(request, 'login.html', {'errmsg': '用户名或密码错误'})
+

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b153e56db03aed599a370394e85a22073d3a7d42b905f59c6cc378ee84298964"
+            "sha256": "3e292766d0d789f8f42c9c3f62031910cd6269b54eb0bc0c9dcf797c9407397d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,13 @@
             ],
             "index": "pypi",
             "version": "==1.8"
+        },
+        "django-redis": {
+            "hashes": [
+                "sha256:76166b32062d57ae1a5ecc0afc15799b54094559712c8ddf47f28e79b5e6d04a"
+            ],
+            "index": "pypi",
+            "version": "==4.4.4"
         },
         "django-tinymce": {
             "hashes": [
@@ -114,6 +121,13 @@
                 "sha256:d747dd3d23d77ef44c6a3526e274af6efeb0a6f1afd5a69ba4d5be4098c8e141"
             ],
             "version": "==2019.1"
+        },
+        "redis": {
+            "hashes": [
+                "sha256:6946b5dca72e86103edc8033019cc3814c031232d339d5f4533b02ea85685175",
+                "sha256:8ca418d2ddca1b1a850afa1680a7d2fd1f3322739271de4b704e0d4668449273"
+            ],
+            "version": "==3.2.1"
         },
         "vine": {
             "hashes": [
