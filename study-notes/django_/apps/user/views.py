@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
@@ -8,6 +8,7 @@ from apps.user.models import User
 from celery_tasks.tasks import send_register_active_email
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from itsdangerous import SignatureExpired
+from utils.mixin import LoginRequiredMixin
 import re
 
 # Create your views here.
@@ -83,7 +84,8 @@ class LoginView(View):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                response = redirect(reverse('goods:index'))
+                next_url = request.GET.get('next', reverse('goods:index'))
+                response = redirect(next_url)
                 remember = request.POST.get('remember')
                 if remember == 'on':
                     response.set_cookie('username', username, max_age=7*24*3600)
@@ -95,3 +97,27 @@ class LoginView(View):
         else:
             return render(request, 'login.html', {'errmsg': '用户名或密码错误'})
 
+
+class LogoutView(View):
+    @staticmethod
+    def get(request):
+        logout(request)
+        return redirect(reverse('goods:index'))
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    @staticmethod
+    def get(request):
+        return render(request, 'user_center_info.html', {'page': 'user'})
+
+
+class UserOrderView(LoginRequiredMixin, View):
+    @staticmethod
+    def get(request):
+        return render(request, 'user_center_order.html', {'page': 'order'})
+
+
+class AddressView(LoginRequiredMixin, View):
+    @staticmethod
+    def get(request):
+        return render(request, 'user_center_site.html', {'page': 'address'})
