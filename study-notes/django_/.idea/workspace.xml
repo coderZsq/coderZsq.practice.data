@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b44495c-28c9-437e-ae28-6e4b8f32f50c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/goods/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_center_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_tasks/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/tasks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +46,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Django Console" value="79" />
           <entry key="Pipfile" value="47" />
           <entry key="conf" value="13" />
-          <entry key="py" value="5035" />
+          <entry key="py" value="5043" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="5035" />
+          <entry key="Python" value="5122" />
           <entry key="TOML" value="47" />
         </counts>
       </usages-collector>
@@ -109,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/celery_tasks/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="400">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -145,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
@@ -200,7 +196,6 @@
         <option value="$PROJECT_DIR$/apps/user/urls.py" />
         <option value="$PROJECT_DIR$/apps/user/models.py" />
         <option value="$PROJECT_DIR$/apps/user/views.py" />
-        <option value="$PROJECT_DIR$/celery_tasks/tasks.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/client.conf" />
         <option value="$PROJECT_DIR$/apps/goods/admin.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/storage.py" />
@@ -209,6 +204,7 @@
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/urls.py" />
         <option value="$PROJECT_DIR$/django_/settings.py" />
+        <option value="$PROJECT_DIR$/celery_tasks/tasks.py" />
       </list>
     </option>
   </component>
@@ -391,12 +387,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18315019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18315019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4981685" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4981685" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +401,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50183153" side_tool="true" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -636,16 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/celery_tasks/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/static_index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -686,6 +672,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="153" column="16" lean-forward="true" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celery_tasks/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
