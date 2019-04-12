@@ -7,7 +7,7 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_.settings")
 django.setup()
 
-app = Celery('celery_tasks.tasks', broker='redis://127.0.0.1:6379/1')
+app = Celery('celery_tasks.tasks', broker='redis://172.16.23.91:6379/1')
 # celery -A celery_tasks.tasks worker --loglevel=info
 
 from django.template import loader, RequestContext
