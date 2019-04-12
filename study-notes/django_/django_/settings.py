@@ -92,6 +92,9 @@ DATABASES = {
     }
 }
 
+# manage.py migrate
+# manage.py makemigrations
+
 # django认证系统使用的模型类
 AUTH_USER_MODEL = 'user.User'
 
