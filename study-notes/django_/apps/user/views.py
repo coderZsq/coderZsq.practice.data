@@ -46,7 +46,7 @@ class RegisterView(View):
         info = {'confirm': user.id}
         token = serializer.dumps(info)
         token = token.decode('utf8')
-        send_register_active_email(email, username, token)
+        send_register_active_email.delay(email, username, token)
         return redirect(reverse('goods:index'))
 
 

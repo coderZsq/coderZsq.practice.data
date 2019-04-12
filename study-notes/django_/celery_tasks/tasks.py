@@ -1,16 +1,16 @@
 from django.core.mail import send_mail
 from django.conf import settings
-# from celery import Celery
+from celery import Celery
 
-# import os
-# import django
-# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_.settings")
-# django.setup()
+import os
+import django
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_.settings")
+django.setup()
 
-# app = Celery('celery_tasks.tasks', broker='redis://172.16.23.91:6379/1')
+app = Celery('celery_tasks.tasks', broker='redis://127.0.0.1:6379/1')
+# celery -A celery_tasks.tasks worker --loglevel=info
 
-
-# @app.task
+@app.task
 def send_register_active_email(to_email, username, token):
     subject = '邮件主题'
     message = '邮件正文'
