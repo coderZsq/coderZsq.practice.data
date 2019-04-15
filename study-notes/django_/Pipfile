@@ -8,15 +8,16 @@ verify_ssl = true
 [packages]
 django = "==1.8"
 django-tinymce = "==2.6.0"
+django-haystack = "==2.7.0"
+django-redis = "==4.8.0"
 pymysql = "==0.7.11"
 pillow = "==4.3.0"
 itsdangerous = "==0.24"
 celery = "==4.1.0"
-django-redis = "==4.8.0"
 redis = "==2.10.6"
 kombu = "==4.1.0"
 mutagen = "==1.42.0"
 requests = "==2.21.0"
-
+whoosh = "==2.7.4"
 [requires]
 python_version = "3.6"

@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
 from django.views.generic import View
 from django.core.cache import cache
+from django.core.paginator import Paginator
 from apps.goods.models import GoodsType, GoodsSKU, IndexGoodsBanner, IndexPromotionBanner, IndexTypeGoodsBanner
 from django_redis import get_redis_connection
 from apps.order.models import OrderGoods
@@ -65,3 +66,51 @@ class DetailView(View):
                    'same_spu_skus': same_spu_skus,
                    'cart_count': cart_count}
         return render(request, 'detail.html', context)
+
+
+class ListView(View):
+    @staticmethod
+    def get(request, type_id, page):
+        try:
+            type = GoodsType.objects.get(id=type_id)
+        except GoodsType.DoesNotExist:
+            return redirect(reverse('goods:index'))
+        types = GoodsType.objects.all()
+        sort = request.GET.get('sort')
+        if sort == 'price':
+            skus = GoodsSKU.objects.filter(type=type).order_by('price')
+        elif sort == 'hot':
+            skus = GoodsSKU.objects.filter(type=type).order_by('-sales')
+        else:
+            skus = GoodsSKU.objects.filter(type=type).order_by('-id')
+        paginator = Paginator(skus, 1)
+        try:
+            page = int(page)
+        except Exception as e:
+            page = 1
+        if page > paginator.num_pages:
+            page = 1
+        skus_page = paginator.page(page)
+        num_pages = paginator.num_pages
+        if num_pages < 5:
+            pages = range(1, num_pages + 1)
+        elif page <= 3:
+            pages = range(1, 6)
+        elif num_pages - page <= 2:
+            pages = range(num_pages - 4, num_pages + 1)
+        else:
+            pages = range(page - 2, page + 3)
+        new_skus = GoodsSKU.objects.filter(type=type).order_by('-create_time')[:2]
+        user = request.user
+        cart_count = 0
+        if user.is_authenticated():
+            conn = get_redis_connection('default')
+            cart_key = 'cart_%d' % user.id
+            cart_count = conn.hlen(cart_key)
+        context = {'type': type, 'types': types,
+                   'skus_page': skus_page,
+                   'news_skus': new_skus,
+                   'pages': pages,
+                   'cart_count': cart_count}
+        return render(request, 'list.html', context)
+
