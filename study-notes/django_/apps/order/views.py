@@ -83,25 +83,37 @@ class OrderCommitView(View):
             cart_key = 'cart_%d' % user.id
             sku_ids = sku_ids.split(',')
             for sku_id in sku_ids:
-                try:
-                    sku = GoodsSKU.objects.get(id=sku_id)
-                except:
-                    transaction.savepoint_rollback(save_id)
-                    return JsonResponse({'res': 4, 'errmsg': '商品不存在'})
-                count = conn.hget(cart_key, sku_id)
-                if int(count) > sku.stock:
-                    transaction.savepoint_rollback(save_id)
-                    return JsonResponse({'res': 6, 'errmsg': '商品库存不足'})
-                OrderGoods.objects.create(order=order,
-                                          sku=sku,
-                                          count=count,
-                                          price=sku.price)
-                sku.stock -= int(count)
-                sku.sales += int(count)
-                sku.save()
-                amount = sku.price * int(count)
-                total_count += int(count)
-                total_price += amount
+                for i in range(3):
+                    try:
+                        # sku = GoodsSKU.objects.select_for_update().get(id=sku_id)
+                        sku = GoodsSKU.objects.get(id=sku_id)
+                    except:
+                        transaction.savepoint_rollback(save_id)
+                        return JsonResponse({'res': 4, 'errmsg': '商品不存在'})
+                    count = conn.hget(cart_key, sku_id)
+                    if int(count) > sku.stock:
+                        transaction.savepoint_rollback(save_id)
+                        return JsonResponse({'res': 6, 'errmsg': '商品库存不足'})
+                    origin_stock = sku.stock
+                    new_stock = origin_stock - int(count)
+                    new_sales = sku.sales + int(count)
+                    res = GoodsSKU.objects.filter(id=sku_id, stock=origin_stock).update(stock=new_stock, sales=new_sales)
+                    if res == 0:
+                        if i == 2:
+                            transaction.savepoint_rollback(save_id)
+                            return JsonResponse({'res': 7, 'errmsg': '下单失败2'})
+                        continue
+                    OrderGoods.objects.create(order=order,
+                                              sku=sku,
+                                              count=count,
+                                              price=sku.price)
+                    # sku.stock -= int(count)
+                    # sku.sales += int(count)
+                    # sku.save()
+                    amount = sku.price * int(count)
+                    total_count += int(count)
+                    total_price += amount
+                    break
             order.total_count = total_count
             order.total_price = total_price
             order.save()

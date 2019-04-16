@@ -1,11 +1,13 @@
 from django.shortcuts import render, redirect
 from django.core.urlresolvers import reverse
 from django.contrib.auth import authenticate, login, logout
+from django.core.paginator import Paginator
 from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
 from apps.user.models import User, Address
 from apps.goods.models import GoodsSKU
+from apps.order.models import OrderInfo, OrderGoods
 from celery_tasks.tasks import send_register_active_email
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from itsdangerous import SignatureExpired
@@ -127,8 +129,37 @@ class UserInfoView(LoginRequiredMixin, View):
 
 class UserOrderView(LoginRequiredMixin, View):
     @staticmethod
-    def get(request):
-        return render(request, 'user_center_order.html', {'page': 'order'})
+    def get(request, page):
+        user = request.user
+        orders = OrderInfo.objects.filter(user=user).order_by('-create_time')
+        for order in orders:
+            order_skus = OrderGoods.objects.filter(order_id=order.order_id)
+            for order_sku in order_skus:
+                amount = order_sku.count * order_sku.price
+                order_sku.amount = amount
+            order.status_name = OrderInfo.ORDER_STATUS[order.order_status]
+            order.order_skus = order_skus
+        paginator = Paginator(orders, 1)
+        try:
+            page = int(page)
+        except Exception as e:
+            page = 1
+        if page > paginator.num_pages:
+            page = 1
+        order_page = paginator.page(page)
+        num_pages = paginator.num_pages
+        if num_pages < 5:
+            pages = range(1, num_pages + 1)
+        elif page <= 3:
+            pages = range(1, 6)
+        elif num_pages - page <= 2:
+            pages = range(num_pages - 4, num_pages + 1)
+        else:
+            pages = range(page - 2, page + 3)
+        context = {'order_page': order_page,
+                   'pages': pages,
+                   'page': 'order'}
+        return render(request, 'user_center_order.html', context)
 
 
 class AddressView(LoginRequiredMixin, View):
