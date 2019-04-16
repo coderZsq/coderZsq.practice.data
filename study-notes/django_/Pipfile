@@ -19,5 +19,7 @@ kombu = "==4.1.0"
 mutagen = "==1.42.0"
 requests = "==2.21.0"
 whoosh = "==2.7.4"
+python-alipay-sdk = "*"
+
 [requires]
 python_version = "3.6"

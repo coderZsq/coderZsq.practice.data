@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0372721b0ba57ab1177bb7faf0a102b9bae4fabbc9611ddae104d2ada3d74510"
+            "sha256": "c01703538b0dd5fd3bab52a0984698132096526017d32a4d45aeb71e73fbc3ab"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -150,6 +150,38 @@
             "index": "pypi",
             "version": "==4.3.0"
         },
+        "pycryptodomex": {
+            "hashes": [
+                "sha256:09f433a6ca4b96a4c89096af9eaa20c5d5e9029a03266f6a80062163d2042030",
+                "sha256:0bb7686dd46d40cace053941638d2db4f9d86a50a62d6100f14157162e56e82f",
+                "sha256:13ef8e8a26a9ac7ae84616e9c500ca0cf721d3725d740124f68dda1b58e7d408",
+                "sha256:195b6540f31cbe3dc7bf3877177bb4fe1a145ce02191efdd0cb6399bff275d4b",
+                "sha256:329ca5986c5e5f6a60edc3ff8b70c28d6cb259491e35e44870db6a8d92430e50",
+                "sha256:42b2eccccb9da547e0ff140784037ea31c1a37012488706b51cbcadb885d2053",
+                "sha256:4b2817bd02dd7dd36f223917f9bcc90d658bb66124bc596d7e3a0c250509acf7",
+                "sha256:5b765870e17bf82a992f2ebb312207da76dbf8694ce865fee847005cce9244e4",
+                "sha256:5d4e10ad9ff7940da534119ef92a500dcf7c28351d15e12d74ef0ce025e37d5b",
+                "sha256:75186284b593df724451869035bfab4a03b6b388ed6eea284ad7fe84c9b64ea0",
+                "sha256:77928b02c28adb4d1d637c609aba380d890fb40ad63c58c826bef871c84cf488",
+                "sha256:7cd21c1a4dd0879dc3b289afeb0033a9382da7d0a50cb9de8d0e59c1ab0977a7",
+                "sha256:83b7fe71fb9d27ff12df9dd3f57ea84153a86f45a674ee2b4763aaaf8ca84988",
+                "sha256:8a67f26365ddad6ae53c0b3800edce16d164e675ee773de31c110624e63736d8",
+                "sha256:8e08238f8d146caabf9d80cca09dd31323a333f74f62323aabd075e7effbc45c",
+                "sha256:938af93204c93d1f576acdef970e95dfd0bbe40133f4bbf73c4b12b67f7bd4ed",
+                "sha256:b2f33943f91c764f2b27a1504cd3ec2c075deb7d1b8fcc3ab4d575bede7037a8",
+                "sha256:b7efd0ac8b38dfdf8b2d387e84b007c843a66de9da437a950a86caa2d1437e1e",
+                "sha256:b95b14e5baaa4ca77ecb7a3d0f85fd13a8e31ada83c5a2bae5652d446414d63d",
+                "sha256:bad0c66c42d16e81eef2199b3c4fb78c873f54c7f9d156e69664e2138155747c",
+                "sha256:c384a85bede5396eed50f6c0374d8c51490fc10fdc65dffc8e613b57e5ab0ee0",
+                "sha256:c58a324a8eb48f767abe8c906295d76e04330aa0a03d99dd58d9a42938ee0596",
+                "sha256:d498731d66f9b9ad978c9a8018b0c6cfc4081e202a79c6e283ade7dcf2a72c18",
+                "sha256:d516746fc25daff1c5e84d3f816d134d75a10e3551ffac92aa957a75b6b0208f",
+                "sha256:ec51ea9f11b11df2719a01ea1cacdcf80858542a93f530a25a3bc742d0fe2f4b",
+                "sha256:ef2792281138a29e54bdd7302fdab72be140192485dc622bb9e7e9a6f9cee4f9",
+                "sha256:f79650ec8812b01f20aca503763b93b0b1b347423ecf9fd3a9ebb611bee84079"
+            ],
+            "version": "==3.7.2"
+        },
         "pymysql": {
             "hashes": [
                 "sha256:56e3f5bcef6501012233620b54f6a7b8a34edc5751e85e4e3da9a0d808df5f68",
@@ -157,6 +189,13 @@
             ],
             "index": "pypi",
             "version": "==0.7.11"
+        },
+        "python-alipay-sdk": {
+            "hashes": [
+                "sha256:6def773df46ded6538b5cbc97148150c41bab7b6a222dca7ef42d944145dee47"
+            ],
+            "index": "pypi",
+            "version": "==1.10.0"
         },
         "pytz": {
             "hashes": [
