@@ -60,3 +60,56 @@ class CartInfoView(LoginRequiredMixin, View):
                    'total_price': total_price,
                    'skus': skus}
         return render(request, 'cart.html', context)
+
+
+class CartUpdateView(View):
+    @staticmethod
+    def post(request):
+        user = request.user
+        if not user.is_authenticated():
+            return JsonResponse({'res': 0, 'errmsg': '请先登录'})
+        sku_id = request.POST.get('sku_id')
+        count = request.POST.get('count')
+        if not all([sku_id, count]):
+            return JsonResponse({'res': 1, 'errmsg': '数据不完整'})
+        try:
+            count = int(count)
+        except Exception as e:
+            return JsonResponse({'res': 2, 'errmsg': '商品数目出错'})
+        try:
+            sku = GoodsSKU.objects.get(id=sku_id)
+        except GoodsSKU.DoesNotExist:
+            return JsonResponse({'res': 3, 'errmsg': '商品不存在'})
+        conn = get_redis_connection('default')
+        cart_key = 'cart_%d' % user.id
+        if count > sku.stock:
+            return JsonResponse({'res': 4, 'errmsg': '商品库存不足'})
+        conn.hset(cart_key, sku_id, count)
+        total_count = 0
+        vals = conn.hvals(cart_key)
+        for val in vals:
+            total_count += int(val)
+        return JsonResponse({'res': 5, 'total_count': total_count, 'messgae': '更新成功'})
+
+
+class CartDeleteView(View):
+    @staticmethod
+    def post(request):
+        user = request.user
+        if not user.is_authenticated():
+            return JsonResponse({'res': 0, 'errmsg': '请先登录'})
+        sku_id = request.POST.get('sku_id')
+        if not sku_id:
+            return JsonResponse({'res': 1, 'errmsg': '无效的商品id'})
+        try:
+            sku = GoodsSKU.objects.get(id=sku_id)
+        except GoodsSKU.DoesNotExist:
+            return JsonResponse({'res': 2, 'errmsg': '商品不存在'})
+        conn = get_redis_connection('default')
+        cart_key = 'cart_%d' % user.id
+        conn.hdel(cart_key, sku_id)
+        total_count = 0
+        vals = conn.hvals(cart_key)
+        for val in vals:
+            total_count += int(val)
+        return JsonResponse({'res': 3, 'total_count': total_count, 'message': '删除成功'})
