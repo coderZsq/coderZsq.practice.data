@@ -6,6 +6,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
+from flask_script import Manager
+from flask_migrate import Migrate, MigrateCommand
 
 app = Flask(__name__)
 
@@ -18,13 +20,22 @@ class Config(object):
 
 app.config.from_object(Config)
 db = SQLAlchemy(app)
-
+manager = Manager(app)
+Migrate(app, db)
+manager.add_command("db", MigrateCommand)
+# python author_book.py db init
+# python author_book.py db migrate
+# python author_book.py db upgrade
+# python author_book.py db history
+# python author_book.py db downgrade 9d07e519cfda
 
 class Author(db.Model):
     __tablename__ = "tbl_authors"
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), unique=True)
     books = db.relationship("Book", backref="author")
+    email = db.Column(db.String(64))
+    mobile = db.Column(db.String(64))
 
 
 class Book(db.Model):
@@ -83,4 +94,6 @@ if __name__ == '__main__':
     # db.session.add_all([bk_xi, bk_xi2, bk_qian, bk_san])
     # db.session.commit()
 
-    app.run(debug=True)
+    # app.run(debug=True)
+
+    manager.run()
