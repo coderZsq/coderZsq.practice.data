@@ -175,7 +175,7 @@ def generate():
 	driver.quit()
 	return "done"
 
-@app.route('/baike/<query>')
+# @app.route('/baike/<query>')
 def baike(query):
 	result = []
 	try:
@@ -232,7 +232,7 @@ def fetch(query, env):
 		result.append(item)
 	return {"data":result}
 
-@app.route('/tags/<type>')
+# @app.route('/tags/<type>')
 def tag(type):
 	url = "https://movie.douban.com/j/search_tags?type=" + type + "&source=index"
 	scraper = cfscrape.create_scraper()
