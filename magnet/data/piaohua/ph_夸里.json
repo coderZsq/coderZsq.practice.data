@@ -1,0 +1,32 @@
+{
+    "\u5938\u91cc": [
+        {
+            "name": "0-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2121/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c02\u96c6[\u4e2d\u82f1\u53cc\u5b57].rmvb"
+        },
+        {
+            "name": "1-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2121/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c03\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        },
+        {
+            "name": "2-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2121/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c04\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        },
+        {
+            "name": "3-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2121/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c05\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        },
+        {
+            "name": "4-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:3100/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c06\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        },
+        {
+            "name": "5-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2121/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c07\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        },
+        {
+            "name": "6-\u5938\u91cc/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u8fde\u8f7d\u81f38\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u4ea1\u547d\u4e4b\u5f92\u7b2c\u4e00\u5b63\u7b2c08\u96c6[\u4e2d\u82f1\u53cc\u5b57].mp4"
+        }
+    ]
+}

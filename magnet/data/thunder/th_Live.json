@@ -1,0 +1,60 @@
+{
+    "Live": [
+        {
+            "name": "lovelive.\u7b2c01\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjg2Xzg3Y2I4MjBkL0xvdmVMaXZlRVAwMS5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c02\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjg3XzNmMjdiODQ0L0xvdmVMaXZlRVAwMi5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c03\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjg4XzkzM2FkY2EwL0xvdmVMaXZlRVAwMy5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c04\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjg5XzM2YzA0MmUyL0xvdmVMaXZlRVAwNC5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c05\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjkwX2EwYzIyMmM3L0xvdmVMaXZlRVAwNS5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c06\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjkxX2I2NTM3ZWE3L0xvdmVMaXZlRVAwNi5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c07\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjkyXzRlMzQ1YTAyL0xvdmVMaXZlRVAwNy5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c08\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjkzXzc2ODM2MjNjL0xvdmVMaXZlRVAwOC5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c09\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk0X2Y1YWU3YTRmL0xvdmVMaXZlRVAwOS5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c10\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk1XzEyMjI1YzliL0xvdmVMaXZlRVAxMC5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c11\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk2XzJjNTVkMjI1L0xvdmVMaXZlRVAxMS5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c12\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk3XzBjNjQzM2E0L0xvdmVMaXZlRVAxMi5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.\u7b2c13\u96c6\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk4X2JkMGMzODBiL0xvdmVMaXZlRVAxMy5tcDRaWg=="
+        },
+        {
+            "name": "lovelive.OVA\u6b63\u7247\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpNy5va3p5eHouY29tLzIwMTkwMzEyLzMwNjk5X2U3OWEwODNhL0xvdmVMaXZlRVAxNC5tcDRaWg=="
+        }
+    ]
+}

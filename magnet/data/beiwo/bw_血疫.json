@@ -1,0 +1,28 @@
+{
+    "\u8840\u75ab": [
+        {
+            "name": "\u7b2c01\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wMS5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c02\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wMi5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c03\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wMy5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c04\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wNC5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c05\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wNS5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c06\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUv0arS37Xa0ru8vi0wNi5tcDRaWg=="
+        }
+    ]
+}

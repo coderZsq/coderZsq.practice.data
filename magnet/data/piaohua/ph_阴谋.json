@@ -1,0 +1,12 @@
+{
+    "\u9634\u8c0b": [
+        {
+            "name": "0-\u706b\u836f\u9634\u8c0b\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u706b\u836f\u9634\u8c0b\u7b2c\u4e00\u5b6302.mp4"
+        },
+        {
+            "name": "1-\u706b\u836f\u9634\u8c0b\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u706b\u836f\u9634\u8c0b\u7b2c\u4e00\u5b6303.mp4"
+        }
+    ]
+}

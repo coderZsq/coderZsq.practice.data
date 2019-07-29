@@ -1,0 +1,24 @@
+{
+    "\u4f8d": [
+        {
+            "name": "0-\u6b7b\u4f8d2BD1280\u9ad8\u6e05",
+            "action": "ftp://h:h@a.piaohua668.com:12380/\u6b7b\u4f8d2HD\u97e9\u7248\u4e2d\u82f1\u53cc\u5b57[\u98d8\u82b1www.piaohua.com].mkv"
+        },
+        {
+            "name": "1-\u6b7b\u4f8d2BD1280\u9ad8\u6e05",
+            "action": "magnet:?xt=urn:btih:VOGBY7VPGGB345CUGJXX4UZ3Z7GOR3Z2"
+        },
+        {
+            "name": "2-\u6b7b\u4f8d2BD1280\u9ad8\u6e05",
+            "action": "ftp://h:h@a.piaohua668.com:12380/\u6b7b\u4f8d2BD\u4e2d\u82f1\u53cc\u5b57[\u98d8\u82b1www.piaohua.com].mp4"
+        },
+        {
+            "name": "3-\u6b7b\u4f8d2BD1280\u9ad8\u6e05",
+            "action": "ftp://h:h@a.piaohua668.com:12380/\u6b7b\u4f8d2\u672a\u5206\u7ea7\u52a0\u957f\u7248BD\u4e2d\u82f1\u53cc\u5b57[\u98d8\u82b1www.piaohua.com].mp4"
+        },
+        {
+            "name": "4-\u6b7b\u4f8d2BD1280\u9ad8\u6e05",
+            "action": "magnet:?xt=urn:btih:3MX2VZSASONBGYR533GXYD2QLJLYW552"
+        }
+    ]
+}

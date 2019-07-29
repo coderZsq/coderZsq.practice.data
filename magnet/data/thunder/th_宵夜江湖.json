@@ -1,0 +1,24 @@
+{
+    "\u5bb5\u591c\u6c5f\u6e56": [
+        {
+            "name": "\u5bb5\u591c\u6c5f\u6e56.\u7b2c01\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vYW5uaW5nLmx1YW5uaWFvLXp1aWRhLmNvbS8xOTA3L+WuteWknOaxn+a5li0wMS5tcDRaWg=="
+        },
+        {
+            "name": "\u5bb5\u591c\u6c5f\u6e56.\u7b2c02\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNy/lrrXlpJzmsZ/muZYtMDIubXA0Wlo="
+        },
+        {
+            "name": "\u5bb5\u591c\u6c5f\u6e56.\u7b2c01\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vb2sueHpva3p5enkuY29tLzIwMTkwNzAyLzI5OTJfMjlmOGE2ODMv5a615aSc5rGf5rmW56ysMembhi5tcDRaWg=="
+        },
+        {
+            "name": "\u5bb5\u591c\u6c5f\u6e56.\u7b2c02\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vb2sueHpva3p5enkuY29tLzIwMTkwNzA5LzMyNDFfYTY5ZmIxNTAv5a615aSc5rGf5rmW56ysMumbhi5tcDRaWg=="
+        },
+        {
+            "name": "\u5bb5\u591c\u6c5f\u6e56.\u7b2c03\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vb2sueHpva3p5enkuY29tLzIwMTkwNzE2LzM1NDNfYmE4MjI3YWMv5a615aSc5rGf5rmW56ysM+mbhi5tcDRaWg=="
+        }
+    ]
+}

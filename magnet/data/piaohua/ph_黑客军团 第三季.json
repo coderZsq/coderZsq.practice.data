@@ -1,0 +1,40 @@
+{
+    "\u9ed1\u5ba2\u519b\u56e2 \u7b2c\u4e09\u5b63": [
+        {
+            "name": "0-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6302.mp4"
+        },
+        {
+            "name": "1-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6303.mp4"
+        },
+        {
+            "name": "2-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6304.mp4"
+        },
+        {
+            "name": "3-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6305.mp4"
+        },
+        {
+            "name": "4-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6306.mp4"
+        },
+        {
+            "name": "5-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6307.mp4"
+        },
+        {
+            "name": "6-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6308.mp4"
+        },
+        {
+            "name": "7-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6309.mp4"
+        },
+        {
+            "name": "8-\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u9ed1\u5ba2\u519b\u56e2\u7b2c\u4e09\u5b6310.mp4"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "\u65e0\u8bc1\u4e4b\u7f6a": [
+        {
+            "name": "0-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a02.mp4"
+        },
+        {
+            "name": "1-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a03.mp4"
+        },
+        {
+            "name": "2-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a04.mp4"
+        },
+        {
+            "name": "3-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a05.mp4"
+        },
+        {
+            "name": "4-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a06.mkv"
+        },
+        {
+            "name": "5-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a07.mp4"
+        },
+        {
+            "name": "6-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a08.mp4"
+        },
+        {
+            "name": "7-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a09.mp4"
+        },
+        {
+            "name": "8-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a10.mp4"
+        },
+        {
+            "name": "9-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a11.mp4"
+        },
+        {
+            "name": "10-\u65e0\u8bc1\u4e4b\u7f6a\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u65e0\u8bc1\u4e4b\u7f6a12.mp4"
+        }
+    ]
+}

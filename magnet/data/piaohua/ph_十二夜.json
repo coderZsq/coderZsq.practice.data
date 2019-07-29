@@ -1,0 +1,48 @@
+{
+    "\u5341\u4e8c\u591c": [
+        {
+            "name": "0-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c02.mp4"
+        },
+        {
+            "name": "1-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c03.mp4"
+        },
+        {
+            "name": "2-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c04.mp4"
+        },
+        {
+            "name": "3-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c05.mp4"
+        },
+        {
+            "name": "4-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c06.mp4"
+        },
+        {
+            "name": "5-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c07.mp4"
+        },
+        {
+            "name": "6-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c08.mp4"
+        },
+        {
+            "name": "7-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c09.mp4"
+        },
+        {
+            "name": "8-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c10.mp4"
+        },
+        {
+            "name": "9-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c11.mp4"
+        },
+        {
+            "name": "10-\u5341\u4e8c\u591c(\u97e9\u56fd\u7248)\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u5341\u4e8c\u591c12.mp4"
+        }
+    ]
+}

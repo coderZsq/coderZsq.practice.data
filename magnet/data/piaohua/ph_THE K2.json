@@ -1,0 +1,64 @@
+{
+    "THE K2": [
+        {
+            "name": "0-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/THE K2\u7b2c02\u96c6.rmvb"
+        },
+        {
+            "name": "1-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/THE K2\u7b2c03\u96c6.rmvb"
+        },
+        {
+            "name": "2-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/THE K2\u7b2c04\u96c6.rmvb"
+        },
+        {
+            "name": "3-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c05\u96c6.rmvb"
+        },
+        {
+            "name": "4-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c06\u96c6.mkv"
+        },
+        {
+            "name": "5-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/THE K2\u7b2c07\u96c6.rmvb"
+        },
+        {
+            "name": "6-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/THE K2\u7b2c08\u96c6.rmvb"
+        },
+        {
+            "name": "7-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c09\u96c6.rmvb"
+        },
+        {
+            "name": "8-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2166/THE K2\u7b2c10\u96c6.rmvb"
+        },
+        {
+            "name": "9-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c11\u96c6.rmvb"
+        },
+        {
+            "name": "10-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c12\u96c6.rmvb"
+        },
+        {
+            "name": "11-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c13\u96c6.rmvb"
+        },
+        {
+            "name": "12-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/THE K2\u7b2c14\u96c6.rmvb"
+        },
+        {
+            "name": "13-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/THE K2\u7b2c15\u96c6.rmvb"
+        },
+        {
+            "name": "14-K2/THE K2\u5168\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/THE K2\u7b2c16\u96c6.mkv"
+        }
+    ]
+}

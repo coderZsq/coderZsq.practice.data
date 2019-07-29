@@ -1,0 +1,40 @@
+{
+    "\u897f\u90e8\u4e16\u754c \u7b2c\u4e8c\u5b63": [
+        {
+            "name": "0-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6302\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "1-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6303\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "2-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6304\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "3-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6305\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "4-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6306\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "5-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6307\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "6-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6308\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "7-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6309\u4fee\u6b63.mp4"
+        },
+        {
+            "name": "8-\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b63\u5168\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:3100/\u897f\u90e8\u4e16\u754c\u7b2c\u4e8c\u5b6310\u4fee\u6b63.mp4"
+        }
+    ]
+}

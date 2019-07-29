@@ -1,0 +1,32 @@
+{
+    "Argon": [
+        {
+            "name": "0-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon02.rmvb"
+        },
+        {
+            "name": "1-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon03.rmvb"
+        },
+        {
+            "name": "2-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon04.rmvb"
+        },
+        {
+            "name": "3-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon05.rmvb"
+        },
+        {
+            "name": "4-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon06.rmvb"
+        },
+        {
+            "name": "5-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon07.rmvb"
+        },
+        {
+            "name": "6-Argon\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2199/Argon08.rmvb"
+        }
+    ]
+}

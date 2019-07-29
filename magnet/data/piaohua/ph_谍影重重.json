@@ -1,0 +1,12 @@
+{
+    "\u8c0d\u5f71\u91cd\u91cd": [
+        {
+            "name": "0-\u8c0d\u5f71\u91cd\u91cd5HD1280\u9ad8\u6e05\u56fd\u82f1\u53cc\u8bed",
+            "action": "ftp://c:c@piaohua888.com:2112/[\u98d8\u82b1www.piaohua.com]\u8c0d\u5f71\u91cd\u91cd5BD\u7279\u6548\u4e2d\u82f1\u53cc\u5b57.rmvb"
+        },
+        {
+            "name": "1-\u8c0d\u5f71\u91cd\u91cd5HD1280\u9ad8\u6e05\u56fd\u82f1\u53cc\u8bed",
+            "action": "ftp://c:c@piaohua668.com:81/\u8c0d\u5f71\u91cd\u91cd5BD\u56fd\u82f1\u53cc\u8bed\u4e2d\u82f1\u53cc\u5b57[\u98d8\u82b1www.piaohua.com].mkv"
+        }
+    ]
+}

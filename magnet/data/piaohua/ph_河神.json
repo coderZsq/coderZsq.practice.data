@@ -1,0 +1,96 @@
+{
+    "\u6cb3\u795e": [
+        {
+            "name": "0-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e02.mkv"
+        },
+        {
+            "name": "1-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e03.mkv"
+        },
+        {
+            "name": "2-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e04.mkv"
+        },
+        {
+            "name": "3-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e05.mkv"
+        },
+        {
+            "name": "4-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e06.mkv"
+        },
+        {
+            "name": "5-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e07.mkv"
+        },
+        {
+            "name": "6-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e08.mkv"
+        },
+        {
+            "name": "7-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e09.mkv"
+        },
+        {
+            "name": "8-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e10.mkv"
+        },
+        {
+            "name": "9-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e11.mp4"
+        },
+        {
+            "name": "10-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e12.mp4"
+        },
+        {
+            "name": "11-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e13.mp4"
+        },
+        {
+            "name": "12-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e14.mp4"
+        },
+        {
+            "name": "13-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e15.mp4"
+        },
+        {
+            "name": "14-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e16.mp4"
+        },
+        {
+            "name": "15-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e17.mp4"
+        },
+        {
+            "name": "16-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e18.mp4"
+        },
+        {
+            "name": "17-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e19.mp4"
+        },
+        {
+            "name": "18-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e20.mp4"
+        },
+        {
+            "name": "19-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e21.mp4"
+        },
+        {
+            "name": "20-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e22.mp4"
+        },
+        {
+            "name": "21-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e23.mp4"
+        },
+        {
+            "name": "22-\u6cb3\u795e\u8fde\u8f7d\u81f324\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u6cb3\u795e24.mp4"
+        }
+    ]
+}

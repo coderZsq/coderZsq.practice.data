@@ -1,0 +1,40 @@
+{
+    "\u672b\u65e5\u5b64\u8230 \u7b2c\u4e94\u5b63": [
+        {
+            "name": "0-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6302.mp4"
+        },
+        {
+            "name": "1-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6303.mp4"
+        },
+        {
+            "name": "2-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6304.mp4"
+        },
+        {
+            "name": "3-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6305.mp4"
+        },
+        {
+            "name": "4-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6306.mp4"
+        },
+        {
+            "name": "5-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6307.mp4"
+        },
+        {
+            "name": "6-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6308.mp4"
+        },
+        {
+            "name": "7-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6309.mp4"
+        },
+        {
+            "name": "8-\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b63\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u672b\u65e5\u5b64\u8230\u7b2c\u4e94\u5b6310.mp4"
+        }
+    ]
+}

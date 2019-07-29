@@ -1,0 +1,92 @@
+{
+    "\u5c0f\u7f8e": [
+        {
+            "name": "0-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d02.mp4"
+        },
+        {
+            "name": "1-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d03.mp4"
+        },
+        {
+            "name": "2-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d04.mp4"
+        },
+        {
+            "name": "3-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d05.mp4"
+        },
+        {
+            "name": "4-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d06.mp4"
+        },
+        {
+            "name": "5-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d07.mp4"
+        },
+        {
+            "name": "6-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d08.mp4"
+        },
+        {
+            "name": "7-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d09.mp4"
+        },
+        {
+            "name": "8-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d10.mp4"
+        },
+        {
+            "name": "9-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d11.mp4"
+        },
+        {
+            "name": "10-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d12.mp4"
+        },
+        {
+            "name": "11-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d13.mp4"
+        },
+        {
+            "name": "12-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d14.mp4"
+        },
+        {
+            "name": "13-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d15.mp4"
+        },
+        {
+            "name": "14-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d16.mp4"
+        },
+        {
+            "name": "15-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d17.mp4"
+        },
+        {
+            "name": "16-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d18.mp4"
+        },
+        {
+            "name": "17-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d19.mp4"
+        },
+        {
+            "name": "18-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d20.mp4"
+        },
+        {
+            "name": "19-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d21.mp4"
+        },
+        {
+            "name": "20-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d22.mp4"
+        },
+        {
+            "name": "21-\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u81f4\u6211\u4eec\u5355\u7eaf\u7684\u5c0f\u7f8e\u597d23.mp4"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "\u9b54\u5973\u7684\u6cd5\u5ead": [
+        {
+            "name": "\u9b54\u5973\u7684\u6cd5\u5ead.\u7b2c01\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZGRkLnh1bmxlaXppeXVhbi5uZXQvMTcxMC/prZTlpbPnmoTms5Xluq0wMS5tcDRaWg=="
+        },
+        {
+            "name": "\u9b54\u5973\u7684\u6cd5\u5ead.\u7b2c02\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZGRkLnh1bmxlaXppeXVhbi5uZXQvMTcxMC/prZTlpbPnmoTms5Xluq0wMi5tcDRaWg=="
+        },
+        {
+            "name": "\u9b54\u5973\u7684\u6cd5\u5ead.\u7b2c03\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZWVlLnh1bmxlaXppeXVhbi5uZXQvMTcxMC/prZTlpbPnmoTms5Xluq0wMy5tcDRaWg=="
+        },
+        {
+            "name": "\u9b54\u5973\u7684\u6cd5\u5ead.\u7b2c04\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZWVlLnh1bmxlaXppeXVhbi5uZXQvMTcxMC/prZTlpbPnmoTms5Xluq0wNC5tcDRaWg=="
+        }
+    ]
+}

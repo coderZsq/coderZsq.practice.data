@@ -1,0 +1,44 @@
+{
+    "\u9999\u6c34": [
+        {
+            "name": "0-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2199/\u9999\u6c3401-02.mp4\n"
+        },
+        {
+            "name": "1-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2199/\u9999\u6c3403-04.mp4\n"
+        },
+        {
+            "name": "2-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3405-06.mp4\n"
+        },
+        {
+            "name": "3-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3407-08.mp4\n"
+        },
+        {
+            "name": "4-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3409-10.mp4\n"
+        },
+        {
+            "name": "5-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3411-12.mp4\n"
+        },
+        {
+            "name": "6-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3413-14.mp4\n"
+        },
+        {
+            "name": "7-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3415-16.mp4\n"
+        },
+        {
+            "name": "8-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3417-18.mp4\n"
+        },
+        {
+            "name": "9-\u9999\u6c34\u8fde\u8f7d\u81f320\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u9999\u6c3419-20.mp4"
+        }
+    ]
+}

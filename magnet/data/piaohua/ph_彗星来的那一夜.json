@@ -1,0 +1,40 @@
+{
+    "\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c": [
+        {
+            "name": "0-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c02.mp4"
+        },
+        {
+            "name": "1-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c03.mp4"
+        },
+        {
+            "name": "2-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c04.mp4"
+        },
+        {
+            "name": "3-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c05.mp4"
+        },
+        {
+            "name": "4-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c06.mp4"
+        },
+        {
+            "name": "5-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c07.mp4"
+        },
+        {
+            "name": "6-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c08.mp4"
+        },
+        {
+            "name": "7-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c09.mp4"
+        },
+        {
+            "name": "8-\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:2166/\u5f57\u661f\u6765\u7684\u90a3\u4e00\u591c10.mp4"
+        }
+    ]
+}

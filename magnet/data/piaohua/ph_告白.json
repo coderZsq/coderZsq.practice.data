@@ -1,0 +1,48 @@
+{
+    "\u544a\u767d": [
+        {
+            "name": "0-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598702.rmvb"
+        },
+        {
+            "name": "1-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598703.mkv"
+        },
+        {
+            "name": "2-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598704.rmvb"
+        },
+        {
+            "name": "3-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598705.rmvb"
+        },
+        {
+            "name": "4-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598706.rmvb"
+        },
+        {
+            "name": "5-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598707.rmvb"
+        },
+        {
+            "name": "6-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598708.rmvb"
+        },
+        {
+            "name": "7-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598709.rmvb"
+        },
+        {
+            "name": "8-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598710.rmvb"
+        },
+        {
+            "name": "9-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598711.rmvb"
+        },
+        {
+            "name": "10-Go back\u592b\u5987/\u544a\u767d\u592b\u5987\u5b8c\u7ed3",
+            "action": "ftp://h:h@tv.dl1234.com:2166/Goback\u592b\u598712.rmvb"
+        }
+    ]
+}

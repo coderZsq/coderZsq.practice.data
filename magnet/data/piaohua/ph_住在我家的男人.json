@@ -1,0 +1,64 @@
+{
+    "\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba": [
+        {
+            "name": "0-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba02.rmvb"
+        },
+        {
+            "name": "1-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba03.mkv"
+        },
+        {
+            "name": "2-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2166/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba04.mkv"
+        },
+        {
+            "name": "3-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba05.rmvb"
+        },
+        {
+            "name": "4-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba06.mkv"
+        },
+        {
+            "name": "5-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba07.rmvb"
+        },
+        {
+            "name": "6-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba08.rmvb"
+        },
+        {
+            "name": "7-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba09.rmvb"
+        },
+        {
+            "name": "8-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2121/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba10.rmvb"
+        },
+        {
+            "name": "9-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba11.mkv"
+        },
+        {
+            "name": "10-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba12.rmvb"
+        },
+        {
+            "name": "11-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba13.rmvb"
+        },
+        {
+            "name": "12-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba14.rmvb"
+        },
+        {
+            "name": "13-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba15.rmvb"
+        },
+        {
+            "name": "14-\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba\u8fde\u8f7d\u81f314\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:3100/\u4f4f\u5728\u6211\u5bb6\u7684\u7537\u4eba16.rmvb"
+        }
+    ]
+}

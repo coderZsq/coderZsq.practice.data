@@ -1,0 +1,44 @@
+{
+    "\u5b8c\u7f8e\u72af\u7f6a": [
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c01\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAxL+WujOe+jueKr+e9qi0wMS5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c02\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAxL+WujOe+jueKr+e9qi0wMi5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c03\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAyL+WujOe+jueKr+e9qi0wMy5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c04\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAyL+WujOe+jueKr+e9qi0wNC5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c05\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAyL+WujOe+jueKr+e9qi0wNS5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c06\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAyL+WujOe+jueKr+e9qi0wNi5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c07\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAzL+WujOe+jueKr+e9qi0wNy5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c08\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnp1aWRheHVubGVpLmNvbS8xOTAzL+WujOe+jueKr+e9qi0wOC5tcDRaWg=="
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c09\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDMv5a6M576O54qv572qLTA5Lm1wNFpa"
+        },
+        {
+            "name": "\u5b8c\u7f8e\u72af\u7f6a.\u7b2c10\u96c6\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDMv5a6M576O54qv572qLTEwLm1wNFpa"
+        }
+    ]
+}

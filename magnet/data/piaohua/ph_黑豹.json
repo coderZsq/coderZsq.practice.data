@@ -1,0 +1,16 @@
+{
+    "\u9ed1\u8c79": [
+        {
+            "name": "0-\u9ed1\u8c79BD1280\u9ad8\u6e05\u56fd\u82f1\u53cc\u8bed",
+            "action": "ftp://h:h@piaohua668.com:12311/\u9ed1\u8c79BD\u4e2d\u82f1\u53cc\u5b57.mp4[\u98d8\u82b1www.piaohua.com].mp4"
+        },
+        {
+            "name": "1-\u9ed1\u8c79BD1280\u9ad8\u6e05\u56fd\u82f1\u53cc\u8bed",
+            "action": "ftp://h:h@piaohua668.com:12311/\u9ed1\u8c79BD\u56fd\u82f1\u53cc\u8bed\u4e2d\u82f1\u53cc\u5b57[\u98d8\u82b1www.piaohua.com].mp4"
+        },
+        {
+            "name": "2-\u9ed1\u8c79BD1280\u9ad8\u6e05\u56fd\u82f1\u53cc\u8bed",
+            "action": "magnet:?xt=urn:btih:6NGA4LML3PJBDGIDSG4WFZPPYMLNHR6X"
+        }
+    ]
+}

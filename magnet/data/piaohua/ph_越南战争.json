@@ -1,0 +1,20 @@
+{
+    "\u8d8a\u5357\u6218\u4e89": [
+        {
+            "name": "0-\u8d8a\u5357\u6218\u4e89\u8fde\u8f7d\u81f35\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u8d8a\u5357\u6218\u4e89\u7b2c\u4e00\u5b6302.mp4"
+        },
+        {
+            "name": "1-\u8d8a\u5357\u6218\u4e89\u8fde\u8f7d\u81f35\u96c6",
+            "action": "ftp://m:m@tv.dl1234.com:2199/\u8d8a\u5357\u6218\u4e89\u7b2c\u4e00\u5b6303.mp4"
+        },
+        {
+            "name": "2-\u8d8a\u5357\u6218\u4e89\u8fde\u8f7d\u81f35\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u8d8a\u5357\u6218\u4e89\u7b2c\u4e00\u5b6304.mp4"
+        },
+        {
+            "name": "3-\u8d8a\u5357\u6218\u4e89\u8fde\u8f7d\u81f35\u96c6",
+            "action": "ftp://m:m@tv.kaida365.com:2199/\u8d8a\u5357\u6218\u4e89\u7b2c\u4e00\u5b6305.mp4"
+        }
+    ]
+}

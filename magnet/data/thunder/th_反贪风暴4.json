@@ -1,0 +1,20 @@
+{
+    "\u53cd\u8d2a\u98ce\u66b44": [
+        {
+            "name": "\u53cd\u8d2a\u98ce\u66b44.HD1280\u9ad8\u6e05\u56fd\u8bed\u4e2d\u5b57\u7248\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUvRui0qumjjuaatDQuSEQxMjgw6auY5riF5Zu96K+t5Lit5a2X54mILm1wNFpa"
+        },
+        {
+            "name": "\u53cd\u8d2a\u98ce\u66b44.HD1080\u9ad8\u6e05\u7ca4\u8bed\u4e2d\u5b57\u7248\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDUvRui0qumjjuaatDQuSEQxMjgw6auY5riF57Kk6K+t5Lit5a2X54mILm1wNFpa"
+        },
+        {
+            "name": "\u53cd\u8d2a\u98ce\u66b44.HD\u7ca4\u8bed\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vb2t4eHp5Lnh6b2t6eXp5LmNvbS8yMDE5MDUyNy8yMzA2OV8zNDkyMzAwNi/lj43otKrpo47mmrQ057Kk6K+tLm1wNFpa"
+        },
+        {
+            "name": "\u53cd\u8d2a\u98ce\u66b44.HD\u56fd\u8bed\u4e0b\u8f7d",
+            "action": "thunder://QUFodHRwOi8vb2t4eHp5Lnh6b2t6eXp5LmNvbS8yMDE5MDUyNy8yMzA3MF82MjIzZmE5ZC/lj43otKrpo47mmrQ05Zu96K+tLm1wNFpa"
+        }
+    ]
+}

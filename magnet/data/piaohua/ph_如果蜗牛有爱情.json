@@ -1,0 +1,84 @@
+{
+    "\u5982\u679c\u8717\u725b\u6709\u7231\u60c5": [
+        {
+            "name": "0-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV02.mkv"
+        },
+        {
+            "name": "1-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV03.mp4"
+        },
+        {
+            "name": "2-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV04.mp4"
+        },
+        {
+            "name": "3-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV05.mp4"
+        },
+        {
+            "name": "4-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV06.mp4"
+        },
+        {
+            "name": "5-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV07.mkv"
+        },
+        {
+            "name": "6-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV08.mkv"
+        },
+        {
+            "name": "7-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV09.mp4"
+        },
+        {
+            "name": "8-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV10.mp4"
+        },
+        {
+            "name": "9-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV11.mp4"
+        },
+        {
+            "name": "10-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV12.mkv"
+        },
+        {
+            "name": "11-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV13.mkv"
+        },
+        {
+            "name": "12-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV14.mkv"
+        },
+        {
+            "name": "13-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV15.mkv"
+        },
+        {
+            "name": "14-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV16.mkv"
+        },
+        {
+            "name": "15-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV17.mkv"
+        },
+        {
+            "name": "16-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV18.mkv"
+        },
+        {
+            "name": "17-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV19.mp4"
+        },
+        {
+            "name": "18-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV20.mp4"
+        },
+        {
+            "name": "19-\u5982\u679c\u8717\u725b\u6709\u7231\u60c5\u8fde\u8f7d\u81f321\u96c6",
+            "action": "ftp://g:g@tv.dl1234.com:3100/\u5982\u679c\u8717\u725b\u6709\u7231\u60c5HDTV21.mp4"
+        }
+    ]
+}

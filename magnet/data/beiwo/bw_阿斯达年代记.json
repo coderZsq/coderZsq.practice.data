@@ -1,0 +1,52 @@
+{
+    "\u963f\u65af\u8fbe\u5e74\u4ee3\u8bb0": [
+        {
+            "name": "\u7b2c01\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTAxLm1wNFpa"
+        },
+        {
+            "name": "\u7b2c02\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTAyLm1wNFpa"
+        },
+        {
+            "name": "\u7b2c03\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTAzLm1wNFpa"
+        },
+        {
+            "name": "\u7b2c04\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTA0Lm1wNFpa"
+        },
+        {
+            "name": "\u7b2c05\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTA1Lm1wNFpa"
+        },
+        {
+            "name": "\u7b2c06\u96c6",
+            "action": "thunder://QUFodHRwOi8vZG93bmxvYWQueHVubGVpenVpZGEuY29tLzE5MDYvsKLLubTvseDE6sq3LTA2Lm1wNFpa"
+        },
+        {
+            "name": "\u7b2c07\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNi+wosu5tO+x4MTqyrctMDcubXA0Wlo="
+        },
+        {
+            "name": "\u7b2c08\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNi+wosu5tO+x4MTqyrctMDgubXA0Wlo="
+        },
+        {
+            "name": "\u7b2c09\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNi+wosu5tO+x4MTqyrctMDkubXA0Wlo="
+        },
+        {
+            "name": "\u7b2c10\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNi+wosu5tO+x4MTqyrctMTAubXA0Wlo="
+        },
+        {
+            "name": "\u7b2c11\u96c6",
+            "action": "thunder://QUFodHRwOi8vYW5uaW5nLmx1YW5uaWFvLXp1aWRhLmNvbS8xOTA3L7Ciy7m077HgxOrKty0xMS5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c12\u96c6",
+            "action": "thunder://QUFodHRwOi8vYW5uaW5nLmx1YW5uaWFvLXp1aWRhLmNvbS8xOTA3L7Ciy7m077HgxOrKty0xMi5tcDRaWg=="
+        }
+    ]
+}

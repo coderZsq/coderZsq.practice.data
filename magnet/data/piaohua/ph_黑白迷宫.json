@@ -1,0 +1,12 @@
+{
+    "\u9ed1\u767d\u8ff7\u5bab": [
+        {
+            "name": "0-\u9ed1\u767d\u8ff7\u5babBD1280\u9ad8\u6e05\u56fd\u7ca4\u53cc\u8bed",
+            "action": "ftp://h:h@piaohua668.com:12311/\u9ed1\u767d\u8ff7\u5babBD\u56fd\u7ca4\u53cc\u8bed\u4e2d\u5b57[\u98d8\u82b1www.piaohua.com].mp4"
+        },
+        {
+            "name": "1-\u9ed1\u767d\u8ff7\u5babBD1280\u9ad8\u6e05\u56fd\u7ca4\u53cc\u8bed",
+            "action": "magnet:?xt=urn:btih:HZTYKCEOYUIGE77M3HRYQSZZXNAWDPID"
+        }
+    ]
+}

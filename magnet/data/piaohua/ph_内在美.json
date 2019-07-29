@@ -1,0 +1,16 @@
+{
+    "\u5185\u5728\u7f8e": [
+        {
+            "name": "0-\u5185\u5728\u7f8e(\u97e9\u56fd)\u8fde\u8f7d\u81f34\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2199/\u5185\u5728\u7f8e02.mp4"
+        },
+        {
+            "name": "1-\u5185\u5728\u7f8e(\u97e9\u56fd)\u8fde\u8f7d\u81f34\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2199/\u5185\u5728\u7f8e03.mp4"
+        },
+        {
+            "name": "2-\u5185\u5728\u7f8e(\u97e9\u56fd)\u8fde\u8f7d\u81f34\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2199/\u5185\u5728\u7f8e04.mp4"
+        }
+    ]
+}

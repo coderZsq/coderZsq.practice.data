@@ -1,0 +1,48 @@
+{
+    "\u4f59\u7f6a \u7b2c\u4e00\u5b63": [
+        {
+            "name": "0-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u4f59\u7f6a\u7b2c\u4e00\u5b6302.mp4"
+        },
+        {
+            "name": "1-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u4f59\u7f6a\u7b2c\u4e00\u5b6303.mp4"
+        },
+        {
+            "name": "2-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u4f59\u7f6a\u7b2c\u4e00\u5b6304.mp4"
+        },
+        {
+            "name": "3-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2199/\u4f59\u7f6a\u7b2c\u4e00\u5b6305.mp4"
+        },
+        {
+            "name": "4-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2199/\u4f59\u7f6a\u7b2c\u4e00\u5b6306.mp4"
+        },
+        {
+            "name": "5-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u4f59\u7f6a\u7b2c\u4e00\u5b6307.mp4"
+        },
+        {
+            "name": "6-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u4f59\u7f6a\u7b2c\u4e00\u5b6308.mp4"
+        },
+        {
+            "name": "7-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2121/\u4f59\u7f6a\u7b2c\u4e00\u5b6309.mp4"
+        },
+        {
+            "name": "8-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2199/\u4f59\u7f6a\u7b2c\u4e00\u5b6310.mp4"
+        },
+        {
+            "name": "9-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2199/\u4f59\u7f6a\u7b2c\u4e00\u5b6311.mp4"
+        },
+        {
+            "name": "10-\u4f59\u7f6a\u7b2c\u4e00\u5b63\u5b8c\u7ed3",
+            "action": "ftp://g:g@tv.dl1234.com:2166/\u4f59\u7f6a\u7b2c\u4e00\u5b6312.mp4"
+        }
+    ]
+}

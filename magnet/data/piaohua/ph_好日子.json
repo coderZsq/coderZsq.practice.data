@@ -1,0 +1,44 @@
+{
+    "\u597d\u65e5\u5b50": [
+        {
+            "name": "0-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed01.mp4\n"
+        },
+        {
+            "name": "1-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed02.mp4\n"
+        },
+        {
+            "name": "2-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed03.mp4\n"
+        },
+        {
+            "name": "3-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed04.mp4\n"
+        },
+        {
+            "name": "4-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed05.mp4\n"
+        },
+        {
+            "name": "5-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed06.mp4\n"
+        },
+        {
+            "name": "6-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed07.mp4\n"
+        },
+        {
+            "name": "7-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed08.mp4\n"
+        },
+        {
+            "name": "8-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed09.mp4\n"
+        },
+        {
+            "name": "9-\u597d\u65e5\u5b50(\u56fd\u8bed)\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://g:g@tv.kaida365.com:3100/\u597d\u65e5\u5b50\u56fd\u8bed10.mp4"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "\u5fb7\u9c81\u7eb3\u9152\u5e97": [
+        {
+            "name": "\u7b2c01\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNy/Uwtauvsa16i0wMS5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c02\u96c6",
+            "action": "thunder://QUFodHRwOi8veHVubGVpLnhpYXphaS16dWlkYS5jb20vMTkwNy/Uwtauvsa16i0wMi5tcDRaWg=="
+        },
+        {
+            "name": "\u7b2c03\u96c6",
+            "action": "thunder://QUFodHRwOi8vYW5uaW5nLmx1YW5uaWFvLXp1aWRhLmNvbS8xOTA3L9TC1q6+xrXqLTAzLm1wNFpa"
+        },
+        {
+            "name": "\u7b2c04\u96c6",
+            "action": "thunder://QUFodHRwOi8vYW5uaW5nLmx1YW5uaWFvLXp1aWRhLmNvbS8xOTA3L9TC1q6+xrXqLTA0Lm1wNFpa"
+        }
+    ]
+}

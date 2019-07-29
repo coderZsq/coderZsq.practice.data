@@ -1,0 +1,48 @@
+{
+    "\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec": [
+        {
+            "name": "0-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec02.rmvb"
+        },
+        {
+            "name": "1-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec03.rmvb"
+        },
+        {
+            "name": "2-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec04.rmvb"
+        },
+        {
+            "name": "3-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec05.mkv"
+        },
+        {
+            "name": "4-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec06.rmvb"
+        },
+        {
+            "name": "5-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec07.rmvb"
+        },
+        {
+            "name": "6-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec08.rmvb"
+        },
+        {
+            "name": "7-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec09.rmvb"
+        },
+        {
+            "name": "8-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec10.rmvb"
+        },
+        {
+            "name": "9-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec11.rmvb"
+        },
+        {
+            "name": "10-\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec\u8fde\u8f7d\u81f312\u96c6",
+            "action": "ftp://h:h@tv.dl1234.com:2199/\u4ed8\u5ca9\u6d1e\u590d\u4ec7\u8005\u4eec12.rmvb"
+        }
+    ]
+}

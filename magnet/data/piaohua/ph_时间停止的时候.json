@@ -1,0 +1,40 @@
+{
+    "\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019": [
+        {
+            "name": "0-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501902.mp4"
+        },
+        {
+            "name": "1-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501903.mp4"
+        },
+        {
+            "name": "2-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501904.mp4"
+        },
+        {
+            "name": "3-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501905.mp4"
+        },
+        {
+            "name": "4-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501906.mp4"
+        },
+        {
+            "name": "5-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501907.mp4"
+        },
+        {
+            "name": "6-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501908.mp4"
+        },
+        {
+            "name": "7-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501909.mp4"
+        },
+        {
+            "name": "8-\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u5019\u8fde\u8f7d\u81f310\u96c6",
+            "action": "ftp://h:h@tv.kaida365.com:2166/\u65f6\u95f4\u505c\u6b62\u7684\u65f6\u501910.mp4"
+        }
+    ]
+}
