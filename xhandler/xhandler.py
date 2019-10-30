@@ -19,9 +19,9 @@ def run():
             if product.strip() in names[index][0].strip():
                 indexes.append(index)
 
+    datas = pd.read_excel('./xlsxes/2019药品数据.xlsx', skiprows=[1, 2, 3, 4, 5, 6]).values
     for index in indexes:
-        data = pd.read_excel('./xlsxes/2019药品数据.xlsx', skiprows=[1, 2, 3, 4, 5, 6]).values[index]
-        print(data)
+        print(datas[index])
 
 if __name__ == '__main__':
 	run()
