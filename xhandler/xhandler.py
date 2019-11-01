@@ -8,10 +8,10 @@ def run():
     82, 83, 86, 87, 89, 90, 92, 95, 98, 100, 105, 106, 107, 108, 110, 111, 114, 117, 118, 121, 124, 126, 
     127, 128, 129, 130, 131, 134, 138, 140, 141, 143, 147, 149, 151, 153, 155, 156, 157, 159, 161, 163]
 
-    catalog = pd.read_excel('./xlsxes/产品目录2(87 of 163).xlsx', usecols=[1], skiprows=[0, 1]).values
+    catalog = pd.read_excel('./xlsxes/产品目录2(87 of 163).xlsx', usecols=[1], skiprows=[1]).values
     products = []
     for index in indexes:
-        products.append(catalog[index - 1][0])
+        products.append(catalog[index][0])
 
     df = pd.read_excel('./xlsxes/2019药品数据.xlsx', skiprows=[1, 2, 3, 4, 5, 6])
     datas = df.values
@@ -24,6 +24,7 @@ def run():
     else:
         for index in indexes:
             print(datas[index])
+    
     
 if __name__ == '__main__':
 	run()
