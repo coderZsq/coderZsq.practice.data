@@ -115,5 +115,5 @@ study-notes/py-basis/scrapy/ArticleSpider/ArticleSpider/images/full
 *.iws
 
 #vscode
-.vscode/*
-/vscode/*
+.vscode
+
